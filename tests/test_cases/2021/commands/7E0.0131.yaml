@@ -1,0 +1,94 @@
+command_id: 7E0.0131
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E804413113F8
+  expected_values:
+    CLR_DIST: 5112
+- response: 7E804413113F9
+  expected_values:
+    CLR_DIST: 5113
+- response: 7E804413113FA
+  expected_values:
+    CLR_DIST: 5114
+- response: 7E804413113FB
+  expected_values:
+    CLR_DIST: 5115
+- response: 7E804413113FC
+  expected_values:
+    CLR_DIST: 5116
+- response: 7E804413113FD
+  expected_values:
+    CLR_DIST: 5117
+- response: 7E804413113FE
+  expected_values:
+    CLR_DIST: 5118
+- response: 7E804413113FF
+  expected_values:
+    CLR_DIST: 5119
+- response: '7E80441311400'
+  expected_values:
+    CLR_DIST: 5120
+- response: '7E80441311401'
+  expected_values:
+    CLR_DIST: 5121
+- response: '7E80441311402'
+  expected_values:
+    CLR_DIST: 5122
+- response: '7E80441311403'
+  expected_values:
+    CLR_DIST: 5123
+- response: '7E80441311404'
+  expected_values:
+    CLR_DIST: 5124
+- response: '7E80441311405'
+  expected_values:
+    CLR_DIST: 5125
+- response: '7E80441311406'
+  expected_values:
+    CLR_DIST: 5126
+- response: '7E80441311407'
+  expected_values:
+    CLR_DIST: 5127
+- response: '7E80441311408'
+  expected_values:
+    CLR_DIST: 5128
+- response: '7E80441311409'
+  expected_values:
+    CLR_DIST: 5129
+- response: 7E8044131140A
+  expected_values:
+    CLR_DIST: 5130
+- response: 7E8044131140B
+  expected_values:
+    CLR_DIST: 5131
+- response: 7E8044131140C
+  expected_values:
+    CLR_DIST: 5132
+- response: 7E8044131140D
+  expected_values:
+    CLR_DIST: 5133
+- response: 7E8044131140E
+  expected_values:
+    CLR_DIST: 5134
+- response: 7E8044131140F
+  expected_values:
+    CLR_DIST: 5135
+- response: '7E80441311410'
+  expected_values:
+    CLR_DIST: 5136
+- response: '7E80441311411'
+  expected_values:
+    CLR_DIST: 5137
+- response: '7E80441311412'
+  expected_values:
+    CLR_DIST: 5138
+- response: '7E80441311413'
+  expected_values:
+    CLR_DIST: 5139
+- response: '7E80441311414'
+  expected_values:
+    CLR_DIST: 5140
+- response: '7E80441311415'
+  expected_values:
+    CLR_DIST: 5141
