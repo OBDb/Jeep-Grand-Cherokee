@@ -120,3 +120,8 @@ unsupported_commands_by_ecu:
   7E0:
   - 7E0.7E8.0100
   - 7E0.7E8.012F
+  7F1:
+  - 7F1.2240B1:JEEP_TT_FL
+  - 7F1.2240B2:JEEP_TT_FR
+  - 7F1.2240B3:JEEP_TT_RL
+  - 7F1.2240B4:JEEP_TT_RR
