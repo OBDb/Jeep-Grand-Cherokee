@@ -1,6 +1,4 @@
 command_id: 7E0.01A6
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E80641A60006CB5D
   expected_values:
@@ -8,9 +6,9 @@ test_cases:
 - response: 7E80641A60006CC00
   expected_values:
     ODO: 44544
-- response: 7E80641A60006CDFE
+- response: 7E80641A60006F3FF
   expected_values:
-    ODO: 44595
-- response: 7E80641A60006DD04
+    ODO: 45567.9
+- response: 7E80641A60006F731
   expected_values:
-    ODO: 44979.6
+    ODO: 45649.7
