@@ -61,6 +61,6 @@ supported_commands_by_ecu:
   - 0149:APP_D
 unsupported_commands_by_ecu:
   6B4:
-  - 6B4.694.22D410
+  - 6B4.694.22D410:JEEP_HVBAT_SOC
   742:
-  - 742.22A022
+  - 742.22A022|fc=1:JEEP_TP_FL,JEEP_TP_FR,JEEP_TP_RL,JEEP_TP_RR,JEEP_TP_SPARE
