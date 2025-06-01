@@ -1,4 +1,7 @@
 { "commands": [
-
+{ "hdr": "6B4", "dbg": true, "cmd": {"22": "D410"}, "freq": 1,
+  "signals": [
+    {"id": "GRANDCHEROKEE_HVBAT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 512, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
+  ]}
 ]
 }
