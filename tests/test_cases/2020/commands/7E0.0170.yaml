@@ -1,9 +1,6 @@
 command_id: 7E0.0170
 test_cases:
-- response: |-
-    7E8100C417007000000
-    7E82100000000000100
-  expected_values:
+- expected_values:
     BP_A: BP_A_OL
     BP_A_ACT: 0
     BP_A_ACT_SUP: 1
@@ -15,3 +12,6 @@ test_cases:
     BP_B_CMD: 0
     BP_B_CMD_SUP: 0
     BP_B_SUP: 0
+  response: |-
+    7E8100C417007000000
+    7E82100000000000100

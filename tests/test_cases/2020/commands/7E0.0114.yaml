@@ -1,6 +1,6 @@
 command_id: 7E0.0114
 test_cases:
-- response: 7E8044114AC7A
-  expected_values:
+- expected_values:
     O2S11: 0.86
     SHRTFT11: -4.6875
+  response: 7E8044114AC7A
