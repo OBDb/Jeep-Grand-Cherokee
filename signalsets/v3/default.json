@@ -21,6 +21,7 @@
 { "hdr": "DA30", "cmd": {"22": "2962"}, "freq": 0.1,
   "signals": [
     {"id": "GRANDCHEROKEE_LAT_G",  "path": "Orientation", "fmt": {"bix": 4,   "len": 12, "max": 40.94, "min": -40.94, "div": 50, "add": -40.96, "unit": "metersPerSecondSquared" }, "name": "Lateral acceleration"},
+    {"id": "GRANDCHEROKEE_LNG_G",  "path": "Orientation", "fmt": {"bix": 20,  "len": 12, "max": 40.94, "min": -40.94, "div": 50, "add": -40.96, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration"},
     {"id": "GRANDCHEROKEE_FL_VSS", "path": "Movement",    "fmt": {"bix": 112, "len": 16, "max": 4095,                 "div": 16,                "unit": "kilometersPerHour"      }, "name": "Front left wheel speed"},
     {"id": "GRANDCHEROKEE_RL_VSS", "path": "Movement",    "fmt": {"bix": 144, "len": 16, "max": 4095,                 "div": 16,                "unit": "kilometersPerHour"      }, "name": "Rear left wheel speed"},
     {"id": "GRANDCHEROKEE_FR_VSS", "path": "Movement",    "fmt": {"bix": 176, "len": 16, "max": 4095,                 "div": 16,                "unit": "kilometersPerHour"      }, "name": "Front right wheel speed"},
