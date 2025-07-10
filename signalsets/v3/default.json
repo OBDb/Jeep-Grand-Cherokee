@@ -1,7 +1,18 @@
 { "commands": [
+{ "hdr": "DA18", "dbg": true, "cmd": {"22": "051A"}, "freq": 0.5,
+  "signals": [
+    {"id": "GRANDCHEROKEE_GEAR", "path": "Transmission", "name": "Current gear", "fmt": {"len": 8, "map": {
+          "0":   { "description": "Neutral", "value": "NEUTRAL" },
+          "17":  { "description": "Drive",   "value": "DRIVE" },
+          "34":  { "description": "Manual",  "value": "MANUAL" },
+          "221": { "description": "Park",    "value": "PARK" },
+          "238": { "description": "Reverse", "value": "REVERSE" }
+        }}
+    }
+  ]},
 { "hdr": "DA18", "dbg": true, "cmd": {"22": "2024"}, "freq": 3600,
   "signals": [
-    {"id": "JEEP_TIRE_SIZE", "path": "Tires", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "millimeters" }, "name": "Tire size"}
+    {"id": "GRANDCHEROKEE_TIRE_SIZE", "path": "Tires", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "millimeters" }, "name": "Tire size"}
   ]}
 ]
 }
