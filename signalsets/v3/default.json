@@ -13,6 +13,17 @@
 { "hdr": "DA18", "dbg": true, "cmd": {"22": "2024"}, "freq": 3600,
   "signals": [
     {"id": "GRANDCHEROKEE_TIRE_SIZE", "path": "Tires", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "millimeters" }, "name": "Tire size"}
+  ]},
+{ "hdr": "DA18", "dbg": true, "cmd": {"22": "F158"}, "freq": 3600,
+  "signals": [
+    {"id": "GRANDCHEROKEE_MODEL_YEAR", "path": "Details", "fmt": { "len": 8, "max": 2225, "add": 2000, "unit": "scalar" }, "name": "Model year"}
+  ]},
+{ "hdr": "DA30", "cmd": {"22": "2962"}, "freq": 0.1,
+  "signals": [
+    {"id": "GRANDCHEROKEE_FL_VSS", "path": "Movement", "fmt": {"bix": 112, "len": 16, "max": 4095, "div": 16, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "GRANDCHEROKEE_RL_VSS", "path": "Movement", "fmt": {"bix": 136, "len": 16, "max": 4095, "div": 16, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "GRANDCHEROKEE_FR_VSS", "path": "Movement", "fmt": {"bix": 160, "len": 16, "max": 4095, "div": 16, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "GRANDCHEROKEE_RR_VSS", "path": "Movement", "fmt": {"bix": 184, "len": 16, "max": 4095, "div": 16, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]}
 ]
 }
