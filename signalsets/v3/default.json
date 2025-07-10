@@ -18,7 +18,7 @@
   "signals": [
     {"id": "GRANDCHEROKEE_MODEL_YEAR", "path": "Details", "fmt": { "len": 8, "max": 2225, "add": 2000, "unit": "scalar" }, "name": "Model year"}
   ]},
-{ "hdr": "DA30", "cmd": {"22": "2962"}, "freq": 0.1,
+{ "hdr": "DA30", "dbg": true, "cmd": {"22": "2962"}, "freq": 0.1,
   "signals": [
     {"id": "GRANDCHEROKEE_LAT_G",  "path": "Orientation", "fmt": {"bix": 4,   "len": 12, "max": 40.94, "min": -40.94, "div": 50, "add": -40.96, "unit": "metersPerSecondSquared" }, "name": "Lateral acceleration"},
     {"id": "GRANDCHEROKEE_LNG_G",  "path": "Orientation", "fmt": {"bix": 20,  "len": 12, "max": 40.94, "min": -40.94, "div": 50, "add": -40.96, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration"},
@@ -26,6 +26,30 @@
     {"id": "GRANDCHEROKEE_RL_VSS", "path": "Movement",    "fmt": {"bix": 144, "len": 16, "max": 4095,                 "div": 16,                "unit": "kilometersPerHour"      }, "name": "Rear left wheel speed"},
     {"id": "GRANDCHEROKEE_FR_VSS", "path": "Movement",    "fmt": {"bix": 176, "len": 16, "max": 4095,                 "div": 16,                "unit": "kilometersPerHour"      }, "name": "Front right wheel speed"},
     {"id": "GRANDCHEROKEE_RR_VSS", "path": "Movement",    "fmt": {"bix": 208, "len": 16, "max": 4095,                 "div": 16,                "unit": "kilometersPerHour"      }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "DAC7", "dbg": true, "cmd": {"22": "0123"}, "freq": 0.1,
+  "signals": [
+    {"id": "GRANDCHEROKEE_TID_FL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front left tire sensor id"}
+  ]},
+{ "hdr": "DAC7", "dbg": true, "cmd": {"22": "0124"}, "freq": 0.1,
+  "signals": [
+    {"id": "GRANDCHEROKEE_TID_FR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front right tire sensor id"}
+  ]},
+{ "hdr": "DAC7", "dbg": true, "cmd": {"22": "0125"}, "freq": 0.1,
+  "signals": [
+    {"id": "GRANDCHEROKEE_TID_RL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear left tire sensor id"}
+  ]},
+{ "hdr": "DAC7", "dbg": true, "cmd": {"22": "0127"}, "freq": 0.1,
+  "signals": [
+    {"id": "GRANDCHEROKEE_TID_RR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear right tire sensor id"}
+  ]},
+{ "hdr": "DAC7", "dbg": true, "cmd": {"22": "013C"}, "freq": 5,
+  "signals": [
+    {"id": "GRANDCHEROKEE_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 6.5535, "div": 10000, "unit": "bars" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "DAC7", "dbg": true, "cmd": {"22": "013D"}, "freq": 5,
+  "signals": [
+    {"id": "GRANDCHEROKEE_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 6.5535, "div": 10000, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]}
 ]
 }
