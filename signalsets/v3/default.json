@@ -18,7 +18,7 @@
   "signals": [
     {"id": "GRANDCHEROKEE_MODEL_YEAR", "path": "Details", "fmt": { "len": 8, "max": 2225, "add": 2000, "unit": "scalar" }, "name": "Model year"}
   ]},
-{ "hdr": "DA30", "cmd": {"22": "2962"}, "freq": 0.1,
+{ "hdr": "DA30", "dbg": true, "cmd": {"22": "2962"}, "freq": 0.1,
   "signals": [
     {"id": "GRANDCHEROKEE_FL_VSS", "path": "Movement", "fmt": {"bix": 112, "len": 16, "max": 4095, "div": 16, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "GRANDCHEROKEE_RL_VSS", "path": "Movement", "fmt": {"bix": 144, "len": 16, "max": 4095, "div": 16, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
