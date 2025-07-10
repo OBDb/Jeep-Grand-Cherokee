@@ -21,9 +21,9 @@
 { "hdr": "DA30", "cmd": {"22": "2962"}, "freq": 0.1,
   "signals": [
     {"id": "GRANDCHEROKEE_FL_VSS", "path": "Movement", "fmt": {"bix": 112, "len": 16, "max": 4095, "div": 16, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
-    {"id": "GRANDCHEROKEE_RL_VSS", "path": "Movement", "fmt": {"bix": 136, "len": 16, "max": 4095, "div": 16, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
-    {"id": "GRANDCHEROKEE_FR_VSS", "path": "Movement", "fmt": {"bix": 160, "len": 16, "max": 4095, "div": 16, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
-    {"id": "GRANDCHEROKEE_RR_VSS", "path": "Movement", "fmt": {"bix": 184, "len": 16, "max": 4095, "div": 16, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+    {"id": "GRANDCHEROKEE_RL_VSS", "path": "Movement", "fmt": {"bix": 144, "len": 16, "max": 4095, "div": 16, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "GRANDCHEROKEE_FR_VSS", "path": "Movement", "fmt": {"bix": 176, "len": 16, "max": 4095, "div": 16, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "GRANDCHEROKEE_RR_VSS", "path": "Movement", "fmt": {"bix": 208, "len": 16, "max": 4095, "div": 16, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]}
 ]
 }
