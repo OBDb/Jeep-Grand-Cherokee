@@ -1,0 +1,8 @@
+command_id: DAC7.22013F
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_TP_RR: 2.4
+    GRANDCHEROKEE_TT_RR: 38
+  response: |-
+    18DAF1C7100962013F096058
+    18DAF1C72100915F
