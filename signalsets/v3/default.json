@@ -20,7 +20,7 @@
   ]},
 { "hdr": "DA30", "cmd": {"22": "0885"}, "freq": 0.1,
   "signals": [
-    {"id": "GRANDCHEROKEE_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 2225, "div": 10, "add": -720, "unit": "degrees" }, "name": "Steering wheel angle"}
+    {"id": "GRANDCHEROKEE_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 720, "min": -720, "div": 10, "add": -720, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
 { "hdr": "DA30", "cmd": {"22": "2962"}, "freq": 0.1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
