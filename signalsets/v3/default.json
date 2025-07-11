@@ -62,6 +62,14 @@
   "signals": [
     {"id": "GRANDCHEROKEE_TP_RR", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "unit": "bars"    }, "name": "Rear right tire pressure",    "suggestedMetric": "rearRightTirePressure"},
     {"id": "GRANDCHEROKEE_TT_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "unit": "celsius" }, "name": "Rear right tire temperature"}
+  ]},
+{ "hdr": "DAC7", "dbg": true, "cmd": {"22": "0302"}, "freq": 5,
+  "signals": [
+    {"id": "GRANDCHEROKEE_RRD_OPEN",            "path": "Doors", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "Rear right door open"},
+    {"id": "GRANDCHEROKEE_RLD_OPEN",            "path": "Doors", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "offon" }, "name": "Rear left door open"},
+    {"id": "GRANDCHEROKEE_PASSENGER_DOOR_OPEN", "path": "Doors", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon" }, "name": "Passenger door open"},
+    {"id": "GRANDCHEROKEE_DRIVER_DOOR_OPEN",    "path": "Doors", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Driver door open"},
+    {"id": "GRANDCHEROKEE_TRUNK_OPEN",          "path": "Doors", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Trunk open"}
   ]}
 ]
 }
