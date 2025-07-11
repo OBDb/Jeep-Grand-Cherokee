@@ -43,6 +43,13 @@
   "signals": [
     {"id": "GRANDCHEROKEE_TID_RR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear right tire sensor id"}
   ]},
+{ "hdr": "DAC7", "dbg": true, "cmd": {"22": "012F"}, "freq": 5,
+  "signals": [
+    {"id": "GRANDCHEROKEE_TP_RL_VALID", "path": "Tires", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "offon" }, "name": "Rear left tire pressure valid?"},
+    {"id": "GRANDCHEROKEE_TP_RR_VALID", "path": "Tires", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon" }, "name": "Rear right tire pressure valid?"},
+    {"id": "GRANDCHEROKEE_TP_FR_VALID", "path": "Tires", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Front right tire pressure valid?"},
+    {"id": "GRANDCHEROKEE_TP_FL_VALID", "path": "Tires", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Front left tire pressure valid?"}
+  ]},
 { "hdr": "DAC7", "dbg": true, "cmd": {"22": "013C"}, "freq": 5,
   "signals": [
     {"id": "GRANDCHEROKEE_TP_FL", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "unit": "bars"    }, "name": "Front left tire pressure",    "suggestedMetric": "frontLeftTirePressure"},
