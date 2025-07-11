@@ -50,6 +50,14 @@
 { "hdr": "DAC7", "dbg": true, "cmd": {"22": "013D"}, "freq": 5,
   "signals": [
     {"id": "GRANDCHEROKEE_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "DAC7", "dbg": true, "cmd": {"22": "013E"}, "freq": 5,
+  "signals": [
+    {"id": "GRANDCHEROKEE_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "DAC7", "dbg": true, "cmd": {"22": "013F"}, "freq": 5,
+  "signals": [
+    {"id": "GRANDCHEROKEE_TP_RR", "path": "Tires", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]}
 ]
 }
