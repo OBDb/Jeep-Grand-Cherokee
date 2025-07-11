@@ -45,19 +45,23 @@
   ]},
 { "hdr": "DAC7", "dbg": true, "cmd": {"22": "013C"}, "freq": 5,
   "signals": [
-    {"id": "GRANDCHEROKEE_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+    {"id": "GRANDCHEROKEE_TP_FL", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "unit": "bars"    }, "name": "Front left tire pressure",    "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "GRANDCHEROKEE_TT_FL", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "unit": "celsius" }, "name": "Front left tire temperature"}
   ]},
 { "hdr": "DAC7", "dbg": true, "cmd": {"22": "013D"}, "freq": 5,
   "signals": [
-    {"id": "GRANDCHEROKEE_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+    {"id": "GRANDCHEROKEE_TP_FR", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "unit": "bars"    }, "name": "Front right tire pressure",    "suggestedMetric": "frontRightTirePressure"},
+    {"id": "GRANDCHEROKEE_TT_FR", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "unit": "celsius" }, "name": "Front right tire temperature"}
   ]},
 { "hdr": "DAC7", "dbg": true, "cmd": {"22": "013E"}, "freq": 5,
   "signals": [
-    {"id": "GRANDCHEROKEE_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+    {"id": "GRANDCHEROKEE_TP_RL", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "unit": "bars"    }, "name": "Rear left tire pressure",    "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "GRANDCHEROKEE_TT_RL", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "unit": "celsius" }, "name": "Rear left tire temperature"}
   ]},
 { "hdr": "DAC7", "dbg": true, "cmd": {"22": "013F"}, "freq": 5,
   "signals": [
-    {"id": "GRANDCHEROKEE_TP_RR", "path": "Tires", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
+    {"id": "GRANDCHEROKEE_TP_RR", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "unit": "bars"    }, "name": "Rear right tire pressure",    "suggestedMetric": "rearRightTirePressure"},
+    {"id": "GRANDCHEROKEE_TT_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "unit": "celsius" }, "name": "Rear right tire temperature"}
   ]}
 ]
 }
