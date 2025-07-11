@@ -18,7 +18,7 @@
   "signals": [
     {"id": "GRANDCHEROKEE_MODEL_YEAR", "path": "Details", "fmt": { "len": 8, "max": 2225, "add": 2000, "unit": "scalar" }, "name": "Model year"}
   ]},
-{ "hdr": "DA30", "dbg": true, "cmd": {"22": "0885"}, "freq": 0.1,
+{ "hdr": "DA30", "cmd": {"22": "0885"}, "freq": 0.1,
   "signals": [
     {"id": "GRANDCHEROKEE_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 2225, "div": 10, "add": -720, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
