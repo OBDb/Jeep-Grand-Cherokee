@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "DA18", "cmd": {"22": "051A"}, "freq": 0.5, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "051A"}, "freq": 0.5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_GEAR_DESIRED", "path": "Transmission", "fmt": {          "len": 4, "max": 15, "nullmin": 0, "nullmax": 13, "unit": "scalar" }, "name": "Desired gear"},
     {"id": "GRANDCHEROKEE_GEAR_CURRENT", "path": "Transmission", "fmt": {"bix": 4, "len": 4, "max": 15, "nullmin": 0, "nullmax": 13, "unit": "scalar" }, "name": "Current gear"},
@@ -18,15 +18,11 @@
   "signals": [
     {"id": "GRANDCHEROKEE_MODEL_YEAR", "path": "Details", "fmt": { "len": 8, "max": 2225, "add": 2000, "unit": "scalar" }, "name": "Model year"}
   ]},
-{ "hdr": "DA1A", "rax": "1A", "cmd": {"22": "5032"}, "freq": 0.5, "dbgfilter": { "to": 2022, "from": 2024 },
-  "signals": [
-    {"id": "GRANDCHEROKEE_TT", "path": "Transmission", "fmt": { "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Transmission temperature"}
-  ]},
-{ "hdr": "DA30", "cmd": {"22": "0885"}, "freq": 0.1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DA30", "rax": "30", "cmd": {"22": "0885"}, "freq": 0.1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 720, "min": -720, "div": 10, "add": -720, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "DA30", "cmd": {"22": "2962"}, "freq": 0.1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DA30", "rax": "30", "cmd": {"22": "2962"}, "freq": 0.1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_LAT_G",  "path": "Orientation", "fmt": {"bix": 4,   "len": 12, "max": 40.94, "min": -40.94, "div": 50, "add": -40.96, "nullmax": 40, "unit": "metersPerSecondSquared" }, "name": "Lateral acceleration"},
     {"id": "GRANDCHEROKEE_LNG_G",  "path": "Orientation", "fmt": {"bix": 20,  "len": 12, "max": 40.94, "min": -40.94, "div": 50, "add": -40.96, "nullmax": 40, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration"},
@@ -35,50 +31,50 @@
     {"id": "GRANDCHEROKEE_FR_VSS", "path": "Movement",    "fmt": {"bix": 176, "len": 16, "max": 4095,                 "div": 16,                               "unit": "kilometersPerHour"      }, "name": "Front right wheel speed"},
     {"id": "GRANDCHEROKEE_RR_VSS", "path": "Movement",    "fmt": {"bix": 208, "len": 16, "max": 4095,                 "div": 16,                               "unit": "kilometersPerHour"      }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "DAC7", "cmd": {"22": "0123"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0123"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TID_FL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front left tire sensor id"}
   ]},
-{ "hdr": "DAC7", "cmd": {"22": "0124"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0124"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TID_FR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front right tire sensor id"}
   ]},
-{ "hdr": "DAC7", "cmd": {"22": "0125"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0125"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TID_RL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear left tire sensor id"}
   ]},
-{ "hdr": "DAC7", "cmd": {"22": "0127"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0127"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TID_RR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear right tire sensor id"}
   ]},
-{ "hdr": "DAC7", "cmd": {"22": "012F"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "012F"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_RL_INVALID", "path": "Tires", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear left tire pressure invalid?"},
     {"id": "GRANDCHEROKEE_TP_RR_INVALID", "path": "Tires", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear right tire pressure invalid?"},
     {"id": "GRANDCHEROKEE_TP_FR_INVALID", "path": "Tires", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front right tire pressure invalid?"},
     {"id": "GRANDCHEROKEE_TP_FL_INVALID", "path": "Tires", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front left tire pressure invalid?"}
   ]},
-{ "hdr": "DAC7", "cmd": {"22": "013C"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "013C"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_FL", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "nullmin": 0,   "unit": "bars"    }, "name": "Front left tire pressure",    "suggestedMetric": "frontLeftTirePressure"},
     {"id": "GRANDCHEROKEE_TT_FL", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Front left tire temperature"}
   ]},
-{ "hdr": "DAC7", "cmd": {"22": "013D"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "013D"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_FR", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "nullmin": 0,   "unit": "bars"    }, "name": "Front right tire pressure",    "suggestedMetric": "frontRightTirePressure"},
     {"id": "GRANDCHEROKEE_TT_FR", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Front right tire temperature"}
   ]},
-{ "hdr": "DAC7", "cmd": {"22": "013E"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "013E"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_RL", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "nullmin": 0,   "unit": "bars"    }, "name": "Rear left tire pressure",    "suggestedMetric": "rearLeftTirePressure"},
     {"id": "GRANDCHEROKEE_TT_RL", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Rear left tire temperature"}
   ]},
-{ "hdr": "DAC7", "cmd": {"22": "013F"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "013F"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_RR", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "nullmin": 0,   "unit": "bars"    }, "name": "Rear right tire pressure",    "suggestedMetric": "rearRightTirePressure"},
     {"id": "GRANDCHEROKEE_TT_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Rear right tire temperature"}
   ]},
-{ "hdr": "DAC7", "cmd": {"22": "0302"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0302"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_RRD_OPEN",            "path": "Doors", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear right door open"},
     {"id": "GRANDCHEROKEE_RLD_OPEN",            "path": "Doors", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear left door open"},
