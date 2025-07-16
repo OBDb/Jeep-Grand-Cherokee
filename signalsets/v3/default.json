@@ -10,6 +10,10 @@
         }}
     }
   ]},
+{ "hdr": "DA1A", "cmd": {"22": "2024"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
+  "signals": [
+    {"id": "GRANDCHEROKEE_TT", "path": "Transmission", "fmt": {"len": 8, "max": 65535, "add": -40, "mul": 3, "unit": "celsius" }, "name": "Transmission temperature"}
+  ]},
 { "hdr": "DA18", "cmd": {"22": "2024"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TIRE_SIZE", "path": "Tires", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "millimeters" }, "name": "Tire size"}
