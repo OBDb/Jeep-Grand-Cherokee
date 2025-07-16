@@ -18,7 +18,7 @@
   "signals": [
     {"id": "GRANDCHEROKEE_MODEL_YEAR", "path": "Details", "fmt": { "len": 8, "max": 2225, "add": 2000, "unit": "scalar" }, "name": "Model year"}
   ]},
-{ "hdr": "DA1A", "rax": "1A", "cmd": {"22": "2024"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DA1A", "rax": "1A", "cmd": {"22": "2024"}, "freq": 0.5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TT", "path": "Transmission", "fmt": { "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Transmission temperature"}
   ]},
