@@ -1,26 +1,26 @@
 { "commands": [
 { "hdr": "DA18", "cmd": {"22": "051A"}, "freq": 0.5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "GRANDCHEROKEE_GEAR", "path": "Transmission", "name": "Current gear", "fmt": {"len": 8, "map": {
+    {"id": "GRANDCHEROKEE_GEAR_DESIRED", "path": "Transmission", "fmt": {          "len": 4, "max": 15, "nullmin": 0, "nullmax": 13, "unit": "scalar" }, "name": "Desired gear"},
+    {"id": "GRANDCHEROKEE_GEAR_CURRENT", "path": "Transmission", "fmt": {"bix": 4, "len": 4, "max": 15, "nullmin": 0, "nullmax": 13, "unit": "scalar" }, "name": "Current gear"},
+    {"id": "GRANDCHEROKEE_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "0":   { "description": "Neutral", "value": "NEUTRAL" },
-          "17":  { "description": "Drive",   "value": "DRIVE" },
-          "34":  { "description": "Manual",  "value": "MANUAL" },
           "221": { "description": "Park",    "value": "PARK" },
           "238": { "description": "Reverse", "value": "REVERSE" }
         }}
     }
   ]},
-{ "hdr": "DA1A", "cmd": {"22": "2024"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
-  "signals": [
-    {"id": "GRANDCHEROKEE_TT", "path": "Transmission", "fmt": {"len": 8, "max": 65535, "add": -40, "mul": 3, "unit": "celsius" }, "name": "Transmission temperature"}
-  ]},
-{ "hdr": "DA18", "cmd": {"22": "2024"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2024"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TIRE_SIZE", "path": "Tires", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "millimeters" }, "name": "Tire size"}
   ]},
-{ "hdr": "DA18", "cmd": {"22": "F158"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "F158"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_MODEL_YEAR", "path": "Details", "fmt": { "len": 8, "max": 2225, "add": 2000, "unit": "scalar" }, "name": "Model year"}
+  ]},
+{ "hdr": "DA1A", "rax": "1A", "cmd": {"22": "2024"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2024 },
+  "signals": [
+    {"id": "GRANDCHEROKEE_TT", "path": "Transmission", "fmt": { "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Transmission temperature"}
   ]},
 { "hdr": "DA30", "cmd": {"22": "0885"}, "freq": 0.1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
