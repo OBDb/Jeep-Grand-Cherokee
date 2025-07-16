@@ -74,7 +74,7 @@
     {"id": "GRANDCHEROKEE_TP_RR", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "nullmin": 0,   "unit": "bars"    }, "name": "Rear right tire pressure",    "suggestedMetric": "rearRightTirePressure"},
     {"id": "GRANDCHEROKEE_TT_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Rear right tire temperature"}
   ]},
-{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0302"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0302"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_RRD_OPEN",            "path": "Doors", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear right door open"},
     {"id": "GRANDCHEROKEE_RLD_OPEN",            "path": "Doors", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear left door open"},
