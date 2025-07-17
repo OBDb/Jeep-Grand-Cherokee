@@ -1,4 +1,4 @@
-command_id: DAC7.22012F
+command_id: DAC7.C7.22012F
 test_cases:
 - expected_values:
     GRANDCHEROKEE_TP_FL_INVALID: 1

@@ -1,4 +1,4 @@
-command_id: DAC7.220124
+command_id: DAC7.C7.220124
 test_cases:
 - expected_values:
     GRANDCHEROKEE_TID_FR: 1093764680

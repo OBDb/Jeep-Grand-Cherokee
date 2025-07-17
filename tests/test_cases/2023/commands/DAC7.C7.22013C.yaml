@@ -1,4 +1,4 @@
-command_id: DAC7.22013C
+command_id: DAC7.C7.22013C
 test_cases:
 - expected_values:
     GRANDCHEROKEE_TP_FL: 2.624

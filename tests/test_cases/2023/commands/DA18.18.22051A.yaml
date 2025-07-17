@@ -1,0 +1,9 @@
+command_id: DA18.18.22051A
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_GEAR_CURRENT: 1
+    GRANDCHEROKEE_GEAR_DESIRED: 1
+  response: 18DAF1180462051A11
+- expected_values:
+    GRANDCHEROKEE_GEAR_SHFT: REVERSE
+  response: 18DAF1180462051AEE
