@@ -1,4 +1,4 @@
-command_id: DA30.222962
+command_id: DA30.30.222962
 test_cases:
 - expected_values:
     GRANDCHEROKEE_FL_VSS: 18.125

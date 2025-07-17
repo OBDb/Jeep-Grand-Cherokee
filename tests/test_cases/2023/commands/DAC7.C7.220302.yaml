@@ -1,4 +1,4 @@
-command_id: DAC7.220302
+command_id: DAC7.C7.220302
 test_cases:
 - expected_values:
     GRANDCHEROKEE_DRIVER_DOOR_OPEN: 0

@@ -1,4 +1,4 @@
-command_id: DA18.222024
+command_id: DA18.18.222024
 test_cases:
 - expected_values:
     GRANDCHEROKEE_TIRE_SIZE: 2387
