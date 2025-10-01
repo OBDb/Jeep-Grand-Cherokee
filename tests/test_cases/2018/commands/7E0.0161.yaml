@@ -1,0 +1,8 @@
+command_id: 7E0.0161
+test_cases:
+- expected_values:
+    TQ_DD: 25
+  response: '7E803416196'
+- expected_values:
+    TQ_DD: 28
+  response: '7E803416199'
