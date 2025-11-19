@@ -1,6 +1,14 @@
 command_id: 7E0.019D
 test_cases:
 - expected_values:
+    FUEL_RATE_ALT: 0.26
+    VFUEL_RATE: 0.26
+  response: 7E806419D000D000D
+- expected_values:
+    FUEL_RATE_ALT: 0.66
+    VFUEL_RATE: 0.66
+  response: 7E806419D00210021
+- expected_values:
     FUEL_RATE_ALT: 2.02
     VFUEL_RATE: 2.02
   response: 7E806419D00650065
