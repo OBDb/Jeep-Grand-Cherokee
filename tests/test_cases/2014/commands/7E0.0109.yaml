@@ -4,5 +4,8 @@ test_cases:
     LONGFT2: -39.71875
   response: '7E803410971'
 - expected_values:
+    LONGFT2: -34.25
+  response: '7E803410978'
+- expected_values:
     LONGFT2: -21.75
   response: '7E803410988'
