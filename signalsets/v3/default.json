@@ -19,7 +19,7 @@
   "signals": [
     {"id": "GRANDCHEROKEE_TOT", "path": "Transmission", "fmt": { "len": 16, "max": 512, "min": -512, "div": 4, "sign": true, "unit": "fahrenheit" }, "name": "Transmission oil temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "04FE"}, "freq": 1,
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "04FE"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_ATF_T_4THGEN", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]},
