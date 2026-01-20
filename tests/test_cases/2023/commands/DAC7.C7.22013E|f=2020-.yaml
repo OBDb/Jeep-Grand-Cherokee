@@ -1,0 +1,14 @@
+command_id: DAC7.C7.22013E|f=2020-
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_TP_RL: 2.4
+    GRANDCHEROKEE_TT_RL: 33
+  response: |-
+    18DAF1C7100962013E096053
+    18DAF1C72100515E
+- expected_values:
+    GRANDCHEROKEE_TP_RL: 2.432
+    GRANDCHEROKEE_TT_RL: 35
+  response: |-
+    18DAF1C7100962013E098055
+    18DAF1C72100915E
