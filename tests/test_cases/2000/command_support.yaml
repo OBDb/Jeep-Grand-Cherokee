@@ -1,4 +1,4 @@
 model_year: 2000
 unsupported_commands_by_ecu:
   "DA18":
-  - DA18.18.222024:GRANDCHEROKEE_TIRE_SIZE
+  - DA18.222024

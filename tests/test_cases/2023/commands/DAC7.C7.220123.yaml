@@ -1,5 +1,0 @@
-command_id: DAC7.C7.220123
-test_cases:
-- expected_values:
-    GRANDCHEROKEE_TID_FL: 1093764694
-  response: 18DAF1C70762012341318656
