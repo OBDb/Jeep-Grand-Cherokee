@@ -1,5 +1,0 @@
-command_id: DA18.18.22F158
-test_cases:
-- expected_values:
-    GRANDCHEROKEE_MODEL_YEAR: 2024
-  response: 18DAF1180762F15818650802

@@ -1,8 +1,0 @@
-command_id: DA18.18.22051A
-test_cases:
-- expected_values:
-    GRANDCHEROKEE_GEAR_SHFT: NEUTRAL
-  response: 18DAF1180462051A00
-- expected_values:
-    GRANDCHEROKEE_GEAR_SHFT: REVERSE
-  response: 18DAF1180462051AEE
