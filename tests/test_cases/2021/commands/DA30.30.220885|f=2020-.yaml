@@ -1,0 +1,14 @@
+command_id: DA30.30.220885|f=2020-
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_STEER_ANGLE: -402.7
+  response: 18DAF130076208850C650C65
+- expected_values:
+    GRANDCHEROKEE_STEER_ANGLE: -3.3
+  response: 18DAF130076208851BFF1BFF
+- expected_values:
+    GRANDCHEROKEE_STEER_ANGLE: -3.2
+  response: 18DAF130076208851C001C00
+- expected_values:
+    GRANDCHEROKEE_STEER_ANGLE: 720
+  response: 18DAF13007620885FFFFFFFF

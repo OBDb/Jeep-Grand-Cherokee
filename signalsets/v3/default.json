@@ -1,28 +1,42 @@
 { "commands": [
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "051A"}, "freq": 0.5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "043B"}, "freq": 5,
+  "signals": [
+    {"id": "GRANDCHEROKEE_ODO", "path": "Trips", "fmt": { "len": 16, "max": 536862.72, "mul": 8.192, "unit": "miles" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"21": "18"}, "freq": 1,
+  "signals": [
+    {"id": "GRANDCHEROKEE_ATF_T_3RDGEN", "path": "Engine", "fmt": { "len": 16, "max": 983.984375, "min": -40, "div": 64, "add": -40, "unit": "fahrenheit" }, "name": "Automatic transmission fluid temperature"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"21": "5C"}, "freq": 1,
+  "signals": [
+    {"id": "GRANDCHEROKEE_ATF_T_3RDGEN_V2", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "04FE"}, "freq": 1,
+  "signals": [
+    {"id": "GRANDCHEROKEE_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
+  ]},
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "04FE"}, "freq": 1,
+  "signals": [
+    {"id": "GRANDCHEROKEE_ATF_T_4THGEN", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
+  ]},
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "051A"}, "freq": 0.5, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "GRANDCHEROKEE_GEAR_DESIRED", "path": "Transmission", "fmt": {          "len": 4, "max": 15, "nullmin": 0, "nullmax": 13, "unit": "scalar" }, "name": "Desired gear"},
-    {"id": "GRANDCHEROKEE_GEAR_CURRENT", "path": "Transmission", "fmt": {"bix": 4, "len": 4, "max": 15, "nullmin": 0, "nullmax": 13, "unit": "scalar" }, "name": "Current gear"},
-    {"id": "GRANDCHEROKEE_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
-          "0":   { "description": "Neutral", "value": "NEUTRAL" },
-          "221": { "description": "Park",    "value": "PARK" },
-          "238": { "description": "Reverse", "value": "REVERSE" }
-        }}
-    }
+    {"id": "GRANDCHEROKEE_GEAR_CURRENT", "path": "Transmission", "fmt": {"bix": 4, "len": 4, "max": 15, "nullmin": 0, "nullmax": 13, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2024"}, "freq": 86400, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2024"}, "freq": 86400, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "GRANDCHEROKEE_TIRE_SIZE", "path": "Tires", "fmt": {"bix": 64, "len": 16, "max": 65535, "unit": "millimeters" }, "name": "Tire size"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "F158"}, "freq": 86400, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "F158"}, "freq": 86400, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "GRANDCHEROKEE_MODEL_YEAR", "path": "Details", "fmt": { "len": 8, "max": 2225, "add": 2000, "unit": "scalar" }, "name": "Model year"}
   ]},
-{ "hdr": "DA30", "rax": "30", "cmd": {"22": "0885"}, "freq": 0.1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "DA30", "rax": "30", "cmd": {"22": "0885"}, "freq": 0.1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "GRANDCHEROKEE_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 720, "min": -720, "div": 10, "add": -720, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "DA30", "rax": "30", "cmd": {"22": "2962"}, "freq": 0.1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "DA30", "rax": "30", "cmd": {"22": "2962"}, "freq": 0.1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "GRANDCHEROKEE_LAT_G",  "path": "Orientation", "fmt": {"bix": 4,   "len": 12, "max": 40.94, "min": -40.94, "div": 50, "add": -40.96, "nullmax": 40, "unit": "metersPerSecondSquared" }, "name": "Lateral acceleration"},
     {"id": "GRANDCHEROKEE_LNG_G",  "path": "Orientation", "fmt": {"bix": 20,  "len": 12, "max": 40.94, "min": -40.94, "div": 50, "add": -40.96, "nullmax": 40, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration"},
@@ -31,50 +45,50 @@
     {"id": "GRANDCHEROKEE_FR_VSS", "path": "Movement",    "fmt": {"bix": 176, "len": 16, "max": 4095,                 "div": 16,                               "unit": "kilometersPerHour"      }, "name": "Front right wheel speed"},
     {"id": "GRANDCHEROKEE_RR_VSS", "path": "Movement",    "fmt": {"bix": 208, "len": 16, "max": 4095,                 "div": 16,                               "unit": "kilometersPerHour"      }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0123"}, "freq": 86400, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0123"}, "freq": 86400, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "GRANDCHEROKEE_TID_FL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front left tire sensor id"}
   ]},
-{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0124"}, "freq": 86400, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0124"}, "freq": 86400, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "GRANDCHEROKEE_TID_FR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front right tire sensor id"}
   ]},
-{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0125"}, "freq": 86400, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0125"}, "freq": 86400, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "GRANDCHEROKEE_TID_RL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear left tire sensor id"}
   ]},
-{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0127"}, "freq": 86400, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0127"}, "freq": 86400, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "GRANDCHEROKEE_TID_RR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear right tire sensor id"}
   ]},
-{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "012F"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "012F"}, "freq": 5, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_RL_INVALID", "path": "Tires", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear left tire pressure invalid?"},
     {"id": "GRANDCHEROKEE_TP_RR_INVALID", "path": "Tires", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear right tire pressure invalid?"},
     {"id": "GRANDCHEROKEE_TP_FR_INVALID", "path": "Tires", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front right tire pressure invalid?"},
     {"id": "GRANDCHEROKEE_TP_FL_INVALID", "path": "Tires", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front left tire pressure invalid?"}
   ]},
-{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "013C"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "013C"}, "freq": 5, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_FL", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "nullmin": 0,   "unit": "bars"    }, "name": "Front left tire pressure",    "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "GRANDCHEROKEE_TT_FL", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Front left tire temperature"}
+    {"id": "GRANDCHEROKEE_TT_FL", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Front left tire temperature", "suggestedMetric": "frontLeftTireTemperature"}
   ]},
-{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "013D"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "013D"}, "freq": 5, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_FR", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "nullmin": 0,   "unit": "bars"    }, "name": "Front right tire pressure",    "suggestedMetric": "frontRightTirePressure"},
-    {"id": "GRANDCHEROKEE_TT_FR", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Front right tire temperature"}
+    {"id": "GRANDCHEROKEE_TT_FR", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"}
   ]},
-{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "013E"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "013E"}, "freq": 5, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_RL", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "nullmin": 0,   "unit": "bars"    }, "name": "Rear left tire pressure",    "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "GRANDCHEROKEE_TT_RL", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Rear left tire temperature"}
+    {"id": "GRANDCHEROKEE_TT_RL", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Rear left tire temperature", "suggestedMetric": "rearLeftTireTemperature"}
   ]},
-{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "013F"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2024 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "013F"}, "freq": 5, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "from": 2024 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_RR", "path": "Tires", "fmt": {           "len": 16, "max": 65.535,             "div": 1000,             "nullmin": 0,   "unit": "bars"    }, "name": "Rear right tire pressure",    "suggestedMetric": "rearRightTirePressure"},
-    {"id": "GRANDCHEROKEE_TT_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Rear right tire temperature"}
+    {"id": "GRANDCHEROKEE_TT_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8,  "max": 205,    "min": -50,              "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Rear right tire temperature", "suggestedMetric": "rearRightTireTemperature"}
   ]},
-{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0302"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "DAC7", "rax": "C7", "cmd": {"22": "0302"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "GRANDCHEROKEE_RRD_OPEN",            "path": "Doors", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear right door open"},
     {"id": "GRANDCHEROKEE_RLD_OPEN",            "path": "Doors", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear left door open"},

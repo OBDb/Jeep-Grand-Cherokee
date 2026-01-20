@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     TQ_ACT: 33
   response: 7E80341629E
+- expected_values:
+    TQ_ACT: 34
+  response: 7E80341629F
+- expected_values:
+    TQ_ACT: 35
+  response: 7E8034162A0
