@@ -1,6 +1,18 @@
 command_id: DAC7.C7.22013C|f=2020-
 test_cases:
 - expected_values:
+    GRANDCHEROKEE_TP_FL: 2.336
+    GRANDCHEROKEE_TT_FL: -2
+  response: |-
+    18DAF1C7100962013C092030
+    18DAF1C72100915F
+- expected_values:
+    GRANDCHEROKEE_TP_FL: 2.336
+    GRANDCHEROKEE_TT_FL: -2
+  response: |-
+    18DAF1C7100962013C092030
+    18DAF1C721610B5F
+- expected_values:
     GRANDCHEROKEE_TP_FL: 2.624
     GRANDCHEROKEE_TT_FL: 33
   response: |-
@@ -12,12 +24,6 @@ test_cases:
   response: |-
     18DAF1C7100962013C0A8059
     18DAF1C72100035C
-- expected_values:
-    GRANDCHEROKEE_TP_FL: 2.688
-    GRANDCHEROKEE_TT_FL: 39
-  response: |-
-    18DAF1C7100962013C0A8059
-    18DAF1C7214B0B5C
 - expected_values:
     GRANDCHEROKEE_TP_FL: 2.72
     GRANDCHEROKEE_TT_FL: 38
