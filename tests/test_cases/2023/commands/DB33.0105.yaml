@@ -1,34 +1,55 @@
 command_id: DB33.0105
 test_cases:
 - expected_values:
+    ECT: 14
+  response: 18DAF11003410536
+- expected_values:
     ECT: 30
   response: |-
     18DAF11003410546
     18DAF11803410546
+- expected_values:
+    ECT: 70
+  response: |-
+    18DAF1100341056E
+    18DAF14403410563
+    18DAF1280341056E
+    18DAF14B0341056E
+    18DAF1180341056E
+- expected_values:
+    ECT: 77
+  response: |-
+    18DAF11003410575
+    18DAF14B03410575
+    18DAF14403410563
+    18DAF11803410575
+    18DAF12803410575
 - expected_values:
     ECT: 88
   response: |-
     18DAF11003410580
     18DAF11803410580
 - expected_values:
-    ECT: 89
-  response: 18DAF11003410581
-- expected_values:
     ECT: 92
   response: |-
     18DAF11003410584
     18DAF11803410584
-- expected_values:
-    ECT: 94
-  response: 18DAF11003410586
 - expected_values:
     ECT: 35
   response: |-
     18DAF1180341054B
     18DAF1100341054B
 - expected_values:
-    ECT: 90
-  response: 18DAF11803410582
+    ECT: 65
+  response: |-
+    18DAF14403410563
+    18DAF11803410569
+    18DAF14B03410569
+    18DAF11003410569
+    18DAF12803410569
+- expected_values:
+    ECT: 215
+  response: 18DAF144034105FF
 - expected_values:
     ECT: 15
   response: |-
@@ -37,3 +58,44 @@ test_cases:
     18DAF11003410537
     18DAF11803410537
     18DAF12803410537
+- expected_values:
+    ECT: 0
+  response: 18DAF14B03410528
+- expected_values:
+    ECT: -40
+  response: |-
+    18DAF14B03410528
+    18DAF144034105FF
+    18DAF12803410500
+- expected_values:
+    ECT: 215
+  response: |-
+    18DAF14B03410536
+    18DAF12803410536
+    18DAF11803410536
+    18DAF11003410536
+    18DAF144034105FF
+- expected_values:
+    ECT: 59
+  response: |-
+    18DAF14B03410566
+    18DAF11003410566
+    18DAF11803410566
+    18DAF12803410566
+    18DAF14403410563
+- expected_values:
+    ECT: 71
+  response: |-
+    18DAF14B0341056F
+    18DAF14403410563
+    18DAF1100341056F
+    18DAF1280341056F
+    18DAF1180341056F
+- expected_values:
+    ECT: 77
+  response: |-
+    18DAF14B03410575
+    18DAF11003410575
+    18DAF11803410575
+    18DAF14403410563
+    18DAF12803410575
