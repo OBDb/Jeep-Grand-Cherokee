@@ -3,7 +3,7 @@
   "signals": [
     {"id": "GRANDCHEROKEE_ODO", "path": "Trips", "fmt": { "len": 16, "max": 536862.72, "mul": 8.192, "unit": "miles" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"21": "18"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"21": "18"}, "freq": 1, "dbgfilter": { "to": 2004, "from": 2006 },
   "signals": [
     {"id": "GRANDCHEROKEE_ATF_T_3RDGEN", "path": "Engine", "fmt": { "len": 16, "max": 983.984375, "min": -40, "div": 64, "add": -40, "unit": "fahrenheit" }, "name": "Automatic transmission fluid temperature"}
   ]},
