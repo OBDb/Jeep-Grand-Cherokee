@@ -7,6 +7,9 @@ test_cases:
     GRANDCHEROKEE_ATF_T_4THGEN: 53
   response: 18DAF118066204FE5D6466
 - expected_values:
+    GRANDCHEROKEE_ATF_T_4THGEN: 65
+  response: 18DAF118066204FE697174
+- expected_values:
     GRANDCHEROKEE_ATF_T_4THGEN: 68
   response: 18DAF118066204FE6C7274
 - expected_values:
