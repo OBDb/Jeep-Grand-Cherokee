@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2118|fc=1
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_ATF_T_3RDGEN: 981
+  response: 7E9056118FF4089
