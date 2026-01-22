@@ -11,7 +11,7 @@
   "signals": [
     {"id": "GRANDCHEROKEE_ATF_T_3RDGEN_V2", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "04FE"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "04FE"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016], "from": 2018 },
   "signals": [
     {"id": "GRANDCHEROKEE_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]},
