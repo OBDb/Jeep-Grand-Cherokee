@@ -105,6 +105,12 @@ test_cases:
     18DAF1100441310090
     18DAF1180441310086
 - expected_values:
+    CLR_DIST: 175
+  response: |-
+    18DAF12804413100AF
+    18DAF14B0441310000
+    18DAF14404413100AF
+- expected_values:
     CLR_DIST: 61
   response: |-
     18DAF144044131003D
@@ -134,6 +140,12 @@ test_cases:
     18DAF12804413100AF
     18DAF11804413100A3
     18DAF11004413100AE
+- expected_values:
+    CLR_DIST: 175
+  response: |-
+    18DAF14B0441310000
+    18DAF14404413100AF
+    18DAF12804413100AF
 - expected_values:
     CLR_DIST: 67
   response: 18DAF14B0441310043
