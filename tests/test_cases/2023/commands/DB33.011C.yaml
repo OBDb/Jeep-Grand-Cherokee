@@ -3,5 +3,10 @@ test_cases:
 - expected_values:
     OBDSUP: OBD II
   response: |-
+    18DAF1440341053C
+    18DAF11003411C01
+- expected_values:
+    OBDSUP: OBD II
+  response: |-
     18DAF14403410D00
     18DAF11003411C01
