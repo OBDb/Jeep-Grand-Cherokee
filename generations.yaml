@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee"
+
 generations:
   - name: "First Generation (ZJ)"
     start_year: 1993
@@ -16,7 +19,7 @@ generations:
 
   - name: "Fourth Generation (WK2)"
     start_year: 2011
-    end_year: 2021
+    end_year: 2022
     description: "The fourth-generation Grand Cherokee featured evolved styling with a more upright front end, trapezoid wheel arches, and more premium detailing. Built on a platform co-developed with Mercedes-Benz during the DaimlerChrysler era, it offered improved dynamics, refinement, and capability. The independent front suspension was refined, with a choice of three 4x4 systems and the new Quadra-Lift air suspension providing adjustable ride height. Engine options expanded to include a 3.6L Pentastar V6, updated 5.7L HEMI V8, 6.4L HEMI V8 in SRT models, and later a supercharged 6.2L Hellcat V8 in the Trackhawk producing 707 HP. A 3.0L EcoDiesel V6 was also offered for improved fuel economy and torque. The interior represented a major leap forward in quality and technology, with available features including an 8.4-inch Uconnect touchscreen, panoramic sunroof, and premium audio systems. Safety technology advanced significantly with adaptive cruise control, blind-spot monitoring, and forward collision warning. This generation elevated the Grand Cherokee's premium positioning while maintaining its off-road heritage, successfully spanning mainstream and luxury segments."
 
   - name: "Fifth Generation (WL)"
