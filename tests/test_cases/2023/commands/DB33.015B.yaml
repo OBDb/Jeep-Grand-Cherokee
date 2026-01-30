@@ -34,6 +34,12 @@ test_cases:
     18DAF14403415BE0
     18DAF14B03415BE0
 - expected_values:
+    BAT_SOC: 92.94118
+  response: |-
+    18DAF12803415BEC
+    18DAF14403415BED
+    18DAF14B03415BED
+- expected_values:
     BAT_SOC: 15.68627
   response: |-
     18DAF14403415B27
@@ -46,12 +52,6 @@ test_cases:
     18DAF14B03415B2D
     18DAF12803415B2C
 - expected_values:
-    BAT_SOC: 92.15686
-  response: |-
-    18DAF14403415BEB
-    18DAF12803415BEA
-    18DAF14B03415BEB
-- expected_values:
     BAT_SOC: 13.72549
   response: 18DAF14B03415B23
 - expected_values:
@@ -63,3 +63,9 @@ test_cases:
 - expected_values:
     BAT_SOC: 92.15686
   response: 18DAF14B03415BEB
+- expected_values:
+    BAT_SOC: 92.94118
+  response: |-
+    18DAF14B03415BEE
+    18DAF14403415BED
+    18DAF12803415BED
