@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22043B
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_ODO: 73080.832
+  response: 7E80562043B22D9
+- expected_values:
+    GRANDCHEROKEE_ODO: 73089.024
+  response: 7E80562043B22DA

@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.2204FE
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_ATF_T: 19
+  response: 7E9066204FE3B3939
+- expected_values:
+    GRANDCHEROKEE_ATF_T: 54
+  response: 7E9066204FE5E5E5D
+- expected_values:
+    GRANDCHEROKEE_ATF_T: 54
+  response: 7E9066204FE5E5E5E
