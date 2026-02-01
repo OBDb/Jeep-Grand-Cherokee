@@ -37,9 +37,9 @@ test_cases:
   response: |-
     18DAF11003410D00
     18DAF14403410D00
-    18DAF12803410D00
     18DAF11803410D00
     18DAF14B03410D00
+    18DAF12803410D00
 - expected_values:
     VSS: 0
   response: |-
@@ -84,8 +84,8 @@ test_cases:
   response: |-
     18DAF11803410D00
     18DAF11003410D00
-    18DAF14B03410D00
     18DAF12803410D00
+    18DAF14B03410D00
     18DAF14403410D00
 - expected_values:
     VSS: 0
@@ -103,6 +103,14 @@ test_cases:
     18DAF12803410D00
     18DAF11003410D00
     18DAF14B03410D00
+- expected_values:
+    VSS: 30
+  response: |-
+    18DAF11803410D1D
+    18DAF14B03410D1F
+    18DAF14403410D1E
+    18DAF11003410D1F
+    18DAF12803410D1E
 - expected_values:
     VSS: 105
   response: |-
@@ -122,6 +130,13 @@ test_cases:
   response: |-
     18DAF12803410D00
     18DAF14B03410D00
+    18DAF11003410D00
+    18DAF14403410D00
+- expected_values:
+    VSS: 0
+  response: |-
+    18DAF12803410D00
+    18DAF14B03410D00
     18DAF14403410D00
 - expected_values:
     VSS: 0
@@ -144,14 +159,6 @@ test_cases:
     18DAF12803410D00
     18DAF11803410D00
     18DAF11003410D00
-- expected_values:
-    VSS: 79
-  response: |-
-    18DAF14403410D4F
-    18DAF14B03410D50
-    18DAF11003410D50
-    18DAF12803410D4F
-    18DAF11803410D4F
 - expected_values:
     VSS: 141
   response: 18DAF14403410D8D
