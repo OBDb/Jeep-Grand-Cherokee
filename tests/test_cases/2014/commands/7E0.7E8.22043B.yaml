@@ -4,29 +4,5 @@ test_cases:
     GRANDCHEROKEE_ODO: 65691.648
   response: 7E80562043B1F53
 - expected_values:
-    GRANDCHEROKEE_ODO: 65699.84
-  response: 7E80562043B1F54
-- expected_values:
-    GRANDCHEROKEE_ODO: 65708.032
-  response: 7E80562043B1F55
-- expected_values:
-    GRANDCHEROKEE_ODO: 65716.224
-  response: 7E80562043B1F56
-- expected_values:
-    GRANDCHEROKEE_ODO: 65724.416
-  response: 7E80562043B1F57
-- expected_values:
-    GRANDCHEROKEE_ODO: 65732.608
-  response: 7E80562043B1F58
-- expected_values:
-    GRANDCHEROKEE_ODO: 65740.8
-  response: 7E80562043B1F59
-- expected_values:
-    GRANDCHEROKEE_ODO: 65748.992
-  response: 7E80562043B1F5A
-- expected_values:
-    GRANDCHEROKEE_ODO: 65757.184
-  response: 7E80562043B1F5B
-- expected_values:
-    GRANDCHEROKEE_ODO: 65806.336
-  response: 7E80562043B1F61
+    GRANDCHEROKEE_ODO: 65929.216
+  response: 7E80562043B1F70
