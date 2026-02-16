@@ -1,0 +1,23 @@
+command_id: 7E1.7E9.2204FE
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_ATF_T: 15
+  response: 7E9066204FE373537
+- expected_values:
+    GRANDCHEROKEE_ATF_T: 16
+  response: 7E9066204FE383537
+- expected_values:
+    GRANDCHEROKEE_ATF_T: 17
+  response: 7E9066204FE393638
+- expected_values:
+    GRANDCHEROKEE_ATF_T: 21
+  response: 7E9066204FE3D3A3C
+- expected_values:
+    GRANDCHEROKEE_ATF_T: 22
+  response: 7E9066204FE3E3B3D
+- expected_values:
+    GRANDCHEROKEE_ATF_T: 22
+  response: 7E9066204FE3E3C3E
+- expected_values:
+    GRANDCHEROKEE_ATF_T: 23
+  response: 7E9066204FE3F3C3E
