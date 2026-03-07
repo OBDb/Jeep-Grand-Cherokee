@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_ATF_T: 23
   response: 7E9066204FE3F3C3E
+- expected_values:
+    GRANDCHEROKEE_ATF_T: 52
+  response: 7E9066204FE5C5A5C
