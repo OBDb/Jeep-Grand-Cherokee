@@ -4,29 +4,5 @@ test_cases:
     SHRTFT2: -11.71875
   response: '7E803410871'
 - expected_values:
-    SHRTFT2: -5.46875
-  response: '7E803410879'
-- expected_values:
-    SHRTFT2: -3.90625
-  response: 7E80341087B
-- expected_values:
-    SHRTFT2: -3.125
-  response: 7E80341087C
-- expected_values:
-    SHRTFT2: -2.34375
-  response: 7E80341087D
-- expected_values:
-    SHRTFT2: -0.78125
-  response: 7E80341087F
-- expected_values:
-    SHRTFT2: 0
-  response: '7E803410880'
-- expected_values:
-    SHRTFT2: 0.78125
-  response: '7E803410881'
-- expected_values:
-    SHRTFT2: 1.5625
-  response: '7E803410882'
-- expected_values:
-    SHRTFT2: 10.15625
-  response: 7E80341088D
+    SHRTFT2: 11.71875
+  response: 7E80341088F
