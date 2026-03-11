@@ -154,11 +154,11 @@ test_cases:
     18DAF12803410500
     18DAF1100341054C
 - expected_values:
-    ECT: 64
+    ECT: 91
   response: |-
     18DAF12803410500
-    18DAF14403410551
-    18DAF14B03410568
+    18DAF14403410546
+    18DAF14B03410583
 - expected_values:
     ECT: 0
   response: |-
