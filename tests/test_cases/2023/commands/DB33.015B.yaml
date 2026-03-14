@@ -25,8 +25,8 @@ test_cases:
     BAT_SOC: 30.98039
   response: |-
     18DAF12803415B4E
-    18DAF14B03415B4F
     18DAF14403415B4F
+    18DAF14B03415B4F
 - expected_values:
     BAT_SOC: 64.31373
   response: |-
