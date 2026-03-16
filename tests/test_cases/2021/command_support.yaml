@@ -157,3 +157,5 @@ unsupported_commands_by_ecu:
   - 7F1.2240B4
   "DA10":
   - DA10.10.2118:GRANDCHEROKEE_TOT
+  "DB33":
+  - DB33.0111:TP
