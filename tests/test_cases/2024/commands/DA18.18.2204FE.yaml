@@ -1,0 +1,32 @@
+command_id: DA18.18.2204FE
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_ATF_T_4THGEN: 41
+  response: 18DAF118066204FE515556
+- expected_values:
+    GRANDCHEROKEE_ATF_T_4THGEN: 43
+  response: 18DAF118066204FE535859
+- expected_values:
+    GRANDCHEROKEE_ATF_T_4THGEN: 45
+  response: 18DAF118066204FE555A5B
+- expected_values:
+    GRANDCHEROKEE_ATF_T_4THGEN: 47
+  response: 18DAF118066204FE575C5E
+- expected_values:
+    GRANDCHEROKEE_ATF_T_4THGEN: 48
+  response: 18DAF118066204FE585E60
+- expected_values:
+    GRANDCHEROKEE_ATF_T_4THGEN: 50
+  response: 18DAF118066204FE5A6062
+- expected_values:
+    GRANDCHEROKEE_ATF_T_4THGEN: 52
+  response: 18DAF118066204FE5C6264
+- expected_values:
+    GRANDCHEROKEE_ATF_T_4THGEN: 54
+  response: 18DAF118066204FE5E6466
+- expected_values:
+    GRANDCHEROKEE_ATF_T_4THGEN: 55
+  response: 18DAF118066204FE5F6667
+- expected_values:
+    GRANDCHEROKEE_ATF_T_4THGEN: 56
+  response: 18DAF118066204FE606769
