@@ -1,5 +1,8 @@
 command_id: DA30.30.220885|f=2020-
 test_cases:
 - expected_values:
+    GRANDCHEROKEE_STEER_ANGLE: 8
+  response: 18DAF130076208851C701C70
+- expected_values:
     GRANDCHEROKEE_STEER_ANGLE: 8.1
   response: 18DAF130076208851C711C71
