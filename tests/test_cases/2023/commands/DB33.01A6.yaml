@@ -26,5 +26,10 @@ test_cases:
     18DAF1100641A60005005A
     18DAF1100641A60005005A
 - expected_values:
+    ODO: 33432
+  response: |-
+    18DAF1100641A6000519F0
+    18DAF1100641A6000519F0
+- expected_values:
     ODO: 94556
   response: 18DAF1100641A6000E6D98
