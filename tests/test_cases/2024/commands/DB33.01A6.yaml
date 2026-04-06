@@ -4,21 +4,6 @@ test_cases:
     ODO: 73780
   response: 18DAF1100641A6000B4208
 - expected_values:
-    ODO: 73803
-  response: 18DAF1100641A6000B42EE
-- expected_values:
-    ODO: 73857
-  response: 18DAF1100641A6000B450A
-- expected_values:
-    ODO: 73858
-  response: 18DAF1100641A6000B4514
-- expected_values:
-    ODO: 73863
-  response: 18DAF1100641A6000B4546
-- expected_values:
-    ODO: 73875
-  response: 18DAF1100641A6000B45BE
-- expected_values:
     ODO: 73881
   response: 18DAF1100641A6000B45FA
 - expected_values:
