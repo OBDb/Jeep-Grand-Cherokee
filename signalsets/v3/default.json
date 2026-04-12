@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "043B"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2016, 2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "043B"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2016, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_ODO", "path": "Trips", "fmt": { "len": 16, "max": 536862.72, "mul": 8.192, "unit": "miles" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
