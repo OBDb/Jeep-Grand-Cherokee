@@ -21,3 +21,9 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_ODO: 112050.176
   response: 7E80562043B356E
+- expected_values:
+    GRANDCHEROKEE_ODO: 112058.368
+  response: 7E80562043B356F
+- expected_values:
+    GRANDCHEROKEE_ODO: 112066.56
+  response: 7E80562043B3570
