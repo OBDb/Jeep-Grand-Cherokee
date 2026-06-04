@@ -4,6 +4,49 @@ test_cases:
     CLR_DIST: 0
   response: '7E80441310000'
 - expected_values:
+    CLR_DIST: 876
+  response: |-
+    7E8044131036C
+    7E80441210000
+    7E803412FA0
+    7E8044131036C
+    7E80441423875
+    7E803414A0A
+    7E804620227A3
+- expected_values:
+    CLR_DIST: 877
+  response: |-
+    7E8044131036D
+    7E804411F2131
+    7E80441210000
+    7E803412FA0
+    7E8044131036D
+    7E80441423884
+    7E803414A5D
+    7E804620227A3
+- expected_values:
+    CLR_DIST: 878
+  response: |-
+    7E8044131036E
+    7E804411F2152
+    7E80441210000
+    7E803412F9E
+    7E8044131036E
+    7E80441423837
+    7E803414A0A
+    7E804620227A2
+- expected_values:
+    CLR_DIST: 881
+  response: |-
+    7E80441310371
+    7E804411F2196
+    7E80441210000
+    7E803412F9E
+    7E80441310371
+    7E80441423856
+    7E803414A0A
+    7E804620227A2
+- expected_values:
     CLR_DIST: 12287
   response: 7E80441312FFF
 - expected_values:
