@@ -210,6 +210,13 @@ test_cases:
     7E803410D00
     7E804620227C6
 - expected_values:
+    TP: 11.37255
+  response: |-
+    7E80341111D
+    7E803414A0A
+    7E804413104A5
+    7E804620227C5
+- expected_values:
     TP: 11.76471
   response: |-
     7E80341111E
@@ -459,6 +466,16 @@ test_cases:
     TP: 11.76471
   response: |-
     7E80341111E
+    7E803410D2A
+    7E803410F4D
+    7E80441423894
+    7E803414A0A
+    7E804413104A0
+    7E804620227C6
+- expected_values:
+    TP: 11.76471
+  response: |-
+    7E80341111E
     7E803410D37
     7E8044131019C
     7E80441423875
@@ -511,6 +528,19 @@ test_cases:
     7E804414238A3
     7E803414A0A
     7E8046202278D
+- expected_values:
+    TP: 11.76471
+  response: |-
+    7E80341111E
+    7E80641010007E500
+    7E80341067F
+    7E803410B1A
+    7E803410D0F
+    7E803410F4E
+    7E80441423856
+    7E803414A0A
+    7E804413104A1
+    7E804620227C6
 - expected_values:
     TP: 11.76471
   response: |-
@@ -726,6 +756,51 @@ test_cases:
     TP: 12.15686
   response: |-
     7E80341111F
+    7E803410B1A
+    7E803410D17
+    7E803410F50
+    7E804414238C2
+    7E803414A0A
+    7E804413104A3
+    7E8024300
+    7E804620227C6
+- expected_values:
+    TP: 12.15686
+  response: |-
+    7E80341111F
+    7E803410B1B
+    7E803410D11
+    7E803410F4F
+    7E80441423856
+    7E803414A0A
+    7E804413104A3
+    7E804620227C6
+- expected_values:
+    TP: 12.15686
+  response: |-
+    7E80341111F
+    7E803410B1E
+    7E803410D06
+    7E803410F56
+    7E80441423847
+    7E803414A0A
+    7E804413104A8
+    7E804620227C5
+- expected_values:
+    TP: 12.15686
+  response: |-
+    7E80341111F
+    7E803410B1F
+    7E803410D05
+    7E803410F53
+    7E80441423865
+    7E803414A0A
+    7E804413104A6
+    7E804620227C5
+- expected_values:
+    TP: 12.15686
+  response: |-
+    7E80341111F
     7E803410D00
     7E803410F55
     7E803412FAA
@@ -743,6 +818,16 @@ test_cases:
     7E80441423856
     7E803414A0A
     7E804620227A7
+- expected_values:
+    TP: 12.15686
+  response: |-
+    7E80341111F
+    7E803410D43
+    7E803410F55
+    7E80441423865
+    7E803414A0A
+    7E804413104A8
+    7E804620227C5
 - expected_values:
     TP: 12.15686
   response: |-
@@ -793,6 +878,15 @@ test_cases:
     7E80441423884
     7E803414A0A
     7E804620227A6
+- expected_values:
+    TP: 12.15686
+  response: |-
+    7E80341111F
+    7E803410F55
+    7E80441423875
+    7E803414A0A
+    7E804413104A9
+    7E804620227C5
 - expected_values:
     TP: 12.15686
   response: |-
@@ -932,19 +1026,6 @@ test_cases:
     7E8044142390F
     7E803414A0A
     7E80462022797
-- expected_values:
-    TP: 12.15686
-  response: |-
-    7E80341111F
-    7E80641010007E500
-    7E803410680
-    7E803410B19
-    7E803410D00
-    7E803410F4D
-    7E804414234D6
-    7E803414A0A
-    7E80441310289
-    7E80462022795
 - expected_values:
     TP: 12.15686
   response: |-
@@ -1133,15 +1214,6 @@ test_cases:
     TP: 12.54902
   response: |-
     7E803411120
-    7E803410D07
-    7E8044131018B
-    7E8044142340E
-    7E803414917
-    7E804620227B9
-- expected_values:
-    TP: 12.54902
-  response: |-
-    7E803411120
     7E803410D0D
     7E80441310463
     7E804414238A3
@@ -1195,6 +1267,19 @@ test_cases:
     7E803410D32
     7E804413102A6
     7E804620227C4
+- expected_values:
+    TP: 12.54902
+  response: |-
+    7E803411120
+    7E80641010007E500
+    7E80341067C
+    7E803410B19
+    7E803410D17
+    7E803410F50
+    7E804414238C2
+    7E803414A0A
+    7E804413104A3
+    7E804620227C6
 - expected_values:
     TP: 12.54902
   response: |-
@@ -1292,6 +1377,39 @@ test_cases:
     TP: 12.94118
   response: |-
     7E803411121
+    7E803410B15
+    7E803410D71
+    7E803410F4F
+    7E80441423847
+    7E803414A0A
+    7E804413104EE
+    7E804620227BE
+- expected_values:
+    TP: 12.94118
+  response: |-
+    7E803411121
+    7E803410B15
+    7E803410D85
+    7E803410F4F
+    7E80441423894
+    7E803414A16
+    7E8044131050C
+    7E804620227B9
+- expected_values:
+    TP: 12.94118
+  response: |-
+    7E803411121
+    7E803410B1A
+    7E803410D4A
+    7E803410F4F
+    7E80441423894
+    7E803414A13
+    7E804413104A5
+    7E804620227C5
+- expected_values:
+    TP: 12.94118
+  response: |-
+    7E803411121
     7E803410D2D
     7E804413101FE
     7E80441423865
@@ -1348,6 +1466,20 @@ test_cases:
     7E804414237EA
     7E803414A0C
     7E804620227A1
+- expected_values:
+    TP: 12.94118
+  response: |-
+    7E803411121
+    7E80641010007E500
+    7E803410689
+    7E803410B17
+    7E803410D56
+    7E803410F4F
+    7E80441423875
+    7E803414A19
+    7E804413104C5
+    7E8024300
+    7E804620227C3
 - expected_values:
     TP: 13.33333
   response: |-
@@ -1482,19 +1614,6 @@ test_cases:
     7E803410D1F
     7E804620227C4
 - expected_values:
-    TP: 13.33333
-  response: |-
-    7E803411122
-    7E80641010007E500
-    7E803410680
-    7E803410B12
-    7E803410D3B
-    7E803410F50
-    7E80441423884
-    7E803414A0A
-    7E8044131027A
-    7E80462022799
-- expected_values:
     TP: 13.72549
   response: |-
     7E803411123
@@ -1569,6 +1688,17 @@ test_cases:
     7E80641010007E500
     7E803410D85
     7E804620227B7
+- expected_values:
+    TP: 14.11765
+  response: |-
+    7E803411124
+    7E803410B2E
+    7E803410D24
+    7E803410F4D
+    7E804414238D2
+    7E803414A1C
+    7E804413104A1
+    7E804620227C6
 - expected_values:
     TP: 14.11765
   response: |-
@@ -1650,6 +1780,26 @@ test_cases:
     7E803410D06
     7E804620227C4
 - expected_values:
+    TP: 14.5098
+  response: |-
+    7E803411125
+    7E803414A14
+    7E804413104F0
+    7E804620227BD
+- expected_values:
+    TP: 14.5098
+  response: |-
+    7E803411125
+    7E80641010007E500
+    7E80341067C
+    7E803410B37
+    7E803410D3D
+    7E803410F4B
+    7E804414238A3
+    7E803414A00
+    7E8044131049F
+    7E804620227C6
+- expected_values:
     TP: 14.90196
   response: |-
     7E803411126
@@ -1683,6 +1833,14 @@ test_cases:
     7E803414A16
     7E8046202278D
 - expected_values:
+    TP: 14.90196
+  response: |-
+    7E803411126
+    7E804414238D2
+    7E803414A17
+    7E804413104A4
+    7E804620227C5
+- expected_values:
     TP: 15.29412
   response: |-
     7E803411127
@@ -1706,6 +1864,18 @@ test_cases:
     7E804414238F0
     7E803414A14
     7E804620227A5
+- expected_values:
+    TP: 15.29412
+  response: |-
+    7E803411127
+    7E803410692
+    7E803410B1E
+    7E803410D6E
+    7E803410F4E
+    7E80441423847
+    7E803414A22
+    7E804413104E7
+    7E804620227BF
 - expected_values:
     TP: 15.29412
   response: |-
@@ -1738,6 +1908,19 @@ test_cases:
     7E8044142390F
     7E803414A0A
     7E8046202279B
+- expected_values:
+    TP: 15.29412
+  response: |-
+    7E803411127
+    7E80641010007E500
+    7E803410690
+    7E803410B18
+    7E803410D64
+    7E803410F4C
+    7E80441423894
+    7E803414A1D
+    7E804413104C6
+    7E804620227C3
 - expected_values:
     TP: 15.68627
   response: |-
@@ -1772,6 +1955,19 @@ test_cases:
     7E80641010007E500
     7E803410D87
     7E804620227BF
+- expected_values:
+    TP: 15.68627
+  response: |-
+    7E803411128
+    7E80641010007E500
+    7E803410682
+    7E803410B11
+    7E803410D79
+    7E803410F4D
+    7E80441423894
+    7E803414A0A
+    7E804413104FF
+    7E804620227BB
 - expected_values:
     TP: 16.07843
   response: |-
@@ -1905,6 +2101,18 @@ test_cases:
     TP: 16.86275
   response: |-
     7E80341112B
+    7E803410B37
+    7E803410D89
+    7E803410F4E
+    7E80441423865
+    7E803414A0A
+    7E80441310501
+    7E8024300
+    7E804620227BB
+- expected_values:
+    TP: 16.86275
+  response: |-
+    7E80341112B
     7E803414A00
     7E80641010007E500
     7E803410D3B
@@ -1923,6 +2131,19 @@ test_cases:
     7E804414237F9
     7E803414A0A
     7E8046202278E
+- expected_values:
+    TP: 16.86275
+  response: |-
+    7E80341112B
+    7E80641010007E500
+    7E803410683
+    7E803410B36
+    7E803410D8D
+    7E803410F4C
+    7E80441423884
+    7E803414A0A
+    7E804413104C8
+    7E804620227C3
 - expected_values:
     TP: 17.2549
   response: |-
@@ -1983,18 +2204,18 @@ test_cases:
     7E80441310283
     7E80462022797
 - expected_values:
-    TP: 17.2549
+    TP: 17.64706
   response: |-
-    7E80341112C
+    7E80341112D
     7E80641010007E500
-    7E803410686
-    7E803410B22
-    7E803410D44
+    7E803410688
+    7E803410B46
+    7E803410D3C
     7E803410F4C
-    7E804414238D2
-    7E803414A00
-    7E8044131027C
-    7E80462022799
+    7E804414238F0
+    7E803414A1F
+    7E804413104A2
+    7E804620227C6
 - expected_values:
     TP: 17.64706
   response: |-
@@ -2028,8 +2249,32 @@ test_cases:
   response: |-
     7E80341112F
     7E80641010007E500
+    7E80341067E
+    7E803410B38
+    7E803410D83
+    7E803410F4D
+    7E80441423884
+    7E803414A1C
+    7E804413104E5
+    7E804620227BF
+- expected_values:
+    TP: 18.43137
+  response: |-
+    7E80341112F
+    7E80641010007E500
     7E803410D23
     7E804620227C4
+- expected_values:
+    TP: 18.82353
+  response: |-
+    7E803411130
+    7E803410B49
+    7E803410D67
+    7E803410F4F
+    7E80441423865
+    7E803414A1C
+    7E804413104FE
+    7E804620227BB
 - expected_values:
     TP: 19.21569
   response: |-
@@ -2069,6 +2314,14 @@ test_cases:
     7E803414A0A
     7E80462022791
 - expected_values:
+    TP: 20
+  response: |-
+    7E803411133
+    7E80441423837
+    7E803414A19
+    7E80441310508
+    7E804620227B9
+- expected_values:
     TP: 20.39216
   response: |-
     7E803411134
@@ -2089,6 +2342,19 @@ test_cases:
     7E803414A1E
     7E80462022796
 - expected_values:
+    TP: 20.39216
+  response: |-
+    7E803411134
+    7E80641010007E500
+    7E803410682
+    7E803410B49
+    7E803410D8A
+    7E803410F4C
+    7E80441423847
+    7E803414A0A
+    7E804413104DA
+    7E804620227C0
+- expected_values:
     TP: 20.78431
   response: |-
     7E803411135
@@ -2101,19 +2367,6 @@ test_cases:
     7E80441423900
     7E803414A21
     7E8046202279E
-- expected_values:
-    TP: 21.17647
-  response: |-
-    7E803411136
-    7E80641010007E500
-    7E803410684
-    7E803410B44
-    7E803410D46
-    7E803410F4A
-    7E80441423875
-    7E803414A23
-    7E80441310280
-    7E80462022798
 - expected_values:
     TP: 21.56863
   response: |-
@@ -2218,6 +2471,13 @@ test_cases:
     TP: 24.31373
   response: |-
     7E80341113E
+    7E803414A25
+    7E80441310500
+    7E804620227BB
+- expected_values:
+    TP: 24.31373
+  response: |-
+    7E80341113E
     7E80641010007E500
     7E803410680
     7E803410B4E
@@ -2242,6 +2502,34 @@ test_cases:
     7E8044131027E
     7E8024300
     7E80462022798
+- expected_values:
+    TP: 24.70588
+  response: |-
+    7E80341113F
+    7E80641010007E500
+    7E80341067D
+    7E803410B5C
+    7E803410D7A
+    7E803410F4C
+    7E80441423894
+    7E803414A21
+    7E804413104D6
+    7E8024300
+    7E804620227C1
+- expected_values:
+    TP: 24.70588
+  response: |-
+    7E80341113F
+    7E80641010007E500
+    7E80341067F
+    7E803410B58
+    7E803410D8B
+    7E803410F4C
+    7E804414238A3
+    7E803414A0A
+    7E804413104B3
+    7E8024300
+    7E804620227C4
 - expected_values:
     TP: 25.09804
   response: |-
@@ -2392,6 +2680,23 @@ test_cases:
     TP: 26.66667
   response: |-
     7E803411144
+    7E803410B58
+    7E803410D8D
+    7E803410F4D
+    7E80441423884
+    7E803414A0A
+    7E804413104F6
+    7E804620227BC
+- expected_values:
+    TP: 26.66667
+  response: |-
+    7E803411144
+    7E804413104E3
+    7E804620227BF
+- expected_values:
+    TP: 26.66667
+  response: |-
+    7E803411144
     7E80641010007E500
     7E80341067C
     7E803410B5B
@@ -2404,18 +2709,23 @@ test_cases:
     7E8024300
     7E8046202279F
 - expected_values:
-    TP: 27.05882
+    TP: 27.45098
   response: |-
-    7E803411145
-    7E80641010007E500
-    7E80341067E
-    7E803410B50
-    7E803410D53
-    7E803410F49
-    7E804414238F0
-    7E803414A1F
-    7E80441310281
-    7E80462022798
+    7E803411146
+    7E803410B59
+    7E803410D6B
+    7E803410F4C
+    7E80441423894
+    7E803414A2C
+    7E804413104D0
+    7E804620227C2
+- expected_values:
+    TP: 27.45098
+  response: |-
+    7E803411146
+    7E803414A28
+    7E8044131050D
+    7E804620227B8
 - expected_values:
     TP: 27.45098
   response: |-
@@ -2438,6 +2748,12 @@ test_cases:
     7E80641010007E500
     7E803410D91
     7E804620227B4
+- expected_values:
+    TP: 28.23529
+  response: |-
+    7E803411148
+    7E804413104AB
+    7E804620227C5
 - expected_values:
     TP: 28.62745
   response: |-
@@ -2510,6 +2826,18 @@ test_cases:
     TP: 29.01961
   response: |-
     7E80341114A
+    7E803410B59
+    7E803410D8D
+    7E803410F4D
+    7E80441423865
+    7E803414A24
+    7E804413104F1
+    7E8024300
+    7E804620227BD
+- expected_values:
+    TP: 29.01961
+  response: |-
+    7E80341114A
     7E804413102CA
     7E80441423884
     7E803414A2F
@@ -2525,6 +2853,19 @@ test_cases:
     7E803410D45
     7E804620227C4
 - expected_values:
+    TP: 29.41176
+  response: |-
+    7E80341114B
+    7E80641010007E500
+    7E80341067D
+    7E803410B5A
+    7E803410D8B
+    7E803410F4D
+    7E80441423894
+    7E803414A0A
+    7E80441310502
+    7E804620227BA
+- expected_values:
     TP: 29.80392
   response: |-
     7E80341114C
@@ -2537,6 +2878,18 @@ test_cases:
     7E804414237DA
     7E803414A27
     7E8046202279D
+- expected_values:
+    TP: 30.19608
+  response: |-
+    7E80341114D
+    7E80341067C
+    7E803410B58
+    7E803410D8A
+    7E803410F4D
+    7E804414238A3
+    7E803414A2B
+    7E80441310505
+    7E804620227BA
 - expected_values:
     TP: 30.19608
   response: |-
@@ -2561,6 +2914,16 @@ test_cases:
     7E804414237DA
     7E803414A0A
     7E80462022797
+- expected_values:
+    TP: 30.19608
+  response: |-
+    7E80341114D
+    7E803410D8B
+    7E803410F4D
+    7E80441423865
+    7E803414A0A
+    7E804413104FB
+    7E804620227BC
 - expected_values:
     TP: 30.19608
   response: |-
@@ -2608,18 +2971,24 @@ test_cases:
     7E8024300
     7E8046202279C
 - expected_values:
-    TP: 34.11765
+    TP: 35.68627
   response: |-
-    7E803411157
-    7E80641010007E500
-    7E80341067F
-    7E803410B58
-    7E803410D44
+    7E80341115B
+    7E803410F4F
+    7E804414238A3
+    7E803414A00
+    7E804413104A5
+    7E804620227C5
+- expected_values:
+    TP: 36.47059
+  response: |-
+    7E80341115D
+    7E803410D8B
     7E803410F4D
-    7E804414238E1
-    7E803414A29
-    7E8044131027C
-    7E80462022798
+    7E80441423875
+    7E803414A27
+    7E804413104DE
+    7E804620227C0
 - expected_values:
     TP: 42.7451
   response: |-
@@ -2702,12 +3071,42 @@ test_cases:
     7E803414A0A
     7E8046202279E
 - expected_values:
+    TP: 54.11765
+  response: |-
+    7E80341118A
+    7E803410B62
+    7E803410D8A
+    7E803410F4D
+    7E80441423875
+    7E803414A0A
+    7E804413104FA
+    7E804620227BC
+- expected_values:
+    TP: 54.90196
+  response: |-
+    7E80341118C
+    7E804413104F3
+    7E804620227BD
+- expected_values:
     TP: 60
   response: |-
     7E803411199
     7E80641010007E500
     7E803410D88
     7E804620227B4
+- expected_values:
+    TP: 60.78431
+  response: |-
+    7E80341119B
+    7E80641010007E500
+    7E803410681
+    7E803410B61
+    7E803410D75
+    7E803410F4C
+    7E80441423865
+    7E803414A00
+    7E804413104C1
+    7E804620227C4
 - expected_values:
     TP: 61.56863
   response: |-
@@ -2756,6 +3155,15 @@ test_cases:
     7E803414972
     7E804620227B0
 - expected_values:
+    TP: 63.52941
+  response: |-
+    7E8034111A2
+    7E803410F4C
+    7E80441423884
+    7E803414A00
+    7E804413104D4
+    7E804620227C1
+- expected_values:
     TP: 63.92157
   response: |-
     7E8034111A3
@@ -2778,6 +3186,19 @@ test_cases:
     7E80441423828
     7E803414A45
     7E804620227A7
+- expected_values:
+    TP: 70.19608
+  response: |-
+    7E8034111B3
+    7E80641010007E500
+    7E80341067F
+    7E803410B62
+    7E803410D5B
+    7E803410F4A
+    7E80441423884
+    7E803414A57
+    7E80441310490
+    7E804620227C7
 - expected_values:
     TP: 79.60784
   response: |-
