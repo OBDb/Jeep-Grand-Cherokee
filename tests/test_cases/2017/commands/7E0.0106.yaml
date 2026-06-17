@@ -53,13 +53,13 @@ test_cases:
     7E803414A1B
     7E804620227A4
 - expected_values:
+    SHRTFT1: -10.9375
+  response: '7E803410672'
+- expected_values:
     SHRTFT1: -10.15625
   response: |-
     7E803410673
     7E804620227B0
-- expected_values:
-    SHRTFT1: -8.59375
-  response: '7E803410675'
 - expected_values:
     SHRTFT1: -10.9375
   response: |-
@@ -129,6 +129,24 @@ test_cases:
     7E80441423809
     7E803414A00
     7E804620227A8
+- expected_values:
+    SHRTFT1: -7.8125
+  response: |-
+    7E803410676
+    7E803410D0C
+    7E80441310464
+    7E804414238A3
+    7E803414915
+    7E8046202278C
+- expected_values:
+    SHRTFT1: -7.8125
+  response: |-
+    7E803410676
+    7E803410D0F
+    7E80441310464
+    7E80441423894
+    7E803414915
+    7E8046202278C
 - expected_values:
     SHRTFT1: -7.8125
   response: |-
@@ -549,6 +567,14 @@ test_cases:
     7E803414A0A
     7E804620227A3
 - expected_values:
+    SHRTFT1: -5.46875
+  response: |-
+    7E803410679
+    7E80441310464
+    7E804414238F0
+    7E80341492B
+    7E8046202278C
+- expected_values:
     SHRTFT1: -0.78125
   response: |-
     7E803410679
@@ -666,6 +692,15 @@ test_cases:
     7E804414233DF
     7E803414A0A
     7E804620227A4
+- expected_values:
+    SHRTFT1: -4.6875
+  response: |-
+    7E80341067A
+    7E803410D08
+    7E80441310464
+    7E80441423580
+    7E80341493E
+    7E8046202278C
 - expected_values:
     SHRTFT1: -4.6875
   response: |-
@@ -837,15 +872,6 @@ test_cases:
     7E804414237DA
     7E803414A0A
     7E804620227AA
-- expected_values:
-    SHRTFT1: -3.90625
-  response: |-
-    7E80341067B
-    7E803410D2F
-    7E804413101D8
-    7E80441423884
-    7E80341495B
-    7E804620227B0
 - expected_values:
     SHRTFT1: -3.90625
   response: |-
@@ -1198,14 +1224,14 @@ test_cases:
     7E80341067C
     7E80641010007E500
     7E80341067C
-    7E803410B22
-    7E803410D50
-    7E803410F51
-    7E803412F68
-    7E80441310457
-    7E8044142379D
-    7E803414A1A
-    7E8046202278D
+    7E803410B1D
+    7E803410D00
+    7E803410F4C
+    7E803412F5B
+    7E80441310488
+    7E804414238A3
+    7E803414A0A
+    7E80462022788
 - expected_values:
     SHRTFT1: -3.125
   response: |-
@@ -1454,6 +1480,19 @@ test_cases:
     7E803414A27
     7E804620227A4
 - expected_values:
+    SHRTFT1: -1.5625
+  response: |-
+    7E80341067D
+    7E80641010007E500
+    7E80341067E
+    7E803410B33
+    7E803410D00
+    7E803410F4F
+    7E80441310478
+    7E80441423856
+    7E803414A0A
+    7E8046202278D
+- expected_values:
     SHRTFT1: 0.78125
   response: |-
     7E80341067D
@@ -1480,6 +1519,16 @@ test_cases:
     7E803414A21
     7E80441310280
     7E80462022798
+- expected_values:
+    SHRTFT1: -2.34375
+  response: |-
+    7E80341067D
+    7E80641010007E500
+    7E803410D43
+    7E80441310467
+    7E804414238E1
+    7E803414926
+    7E8046202278B
 - expected_values:
     SHRTFT1: 0
   response: |-
@@ -1791,6 +1840,19 @@ test_cases:
     7E803414A0A
     7E804620227A2
 - expected_values:
+    SHRTFT1: -0.78125
+  response: |-
+    7E80341067E
+    7E80641010007E500
+    7E80341067F
+    7E803410B33
+    7E803410D00
+    7E803410F51
+    7E80441310478
+    7E80441423894
+    7E803414A0A
+    7E8046202278D
+- expected_values:
     SHRTFT1: -2.34375
   response: |-
     7E80341067F
@@ -1883,6 +1945,18 @@ test_cases:
     7E804414237F9
     7E803414A0A
     7E80462022799
+- expected_values:
+    SHRTFT1: -0.78125
+  response: |-
+    7E80341067F
+    7E803410B20
+    7E803410D04
+    7E803410F4E
+    7E803412F5B
+    7E80441310488
+    7E80441423702
+    7E803414A00
+    7E80462022788
 - expected_values:
     SHRTFT1: -0.78125
   response: |-
@@ -2815,6 +2889,40 @@ test_cases:
     7E803414A0A
     7E8046202279E
 - expected_values:
+    SHRTFT1: -4.6875
+  response: |-
+    7E803410682
+    7E803410682
+    7E803410B1E
+    7E803410D45
+    7E803410F4B
+    7E803412F63
+    7E80441310483
+    7E80441423884
+    7E803414A00
+    7E8046202278B
+    7E80641010007E500
+    7E80341067B
+    7E803410B1C
+    7E803410D45
+    7E803410F4B
+    7E803412F63
+    7E80441310483
+    7E804414238A3
+    7E803414A0A
+    7E8024300
+    7E8046202278B
+    7E80641010007E500
+    7E80341067A
+    7E803410B16
+    7E803410D44
+    7E803410F4B
+    7E803412F63
+    7E80441310483
+    7E804414238E1
+    7E803414A0A
+    7E8046202278B
+- expected_values:
     SHRTFT1: 3.90625
   response: |-
     7E803410682
@@ -2883,16 +2991,6 @@ test_cases:
     7E804410C1A5C
     7E803410D0E
     7E804620227B2
-- expected_values:
-    SHRTFT1: 1.5625
-  response: |-
-    7E803410682
-    7E80641010007E500
-    7E803410D0D
-    7E8044131020D
-    7E80441423828
-    7E803414915
-    7E804620227A0
 - expected_values:
     SHRTFT1: 3.90625
   response: |-
@@ -3024,6 +3122,19 @@ test_cases:
     7E803414A19
     7E80441310288
     7E80462022796
+- expected_values:
+    SHRTFT1: 4.6875
+  response: |-
+    7E803410686
+    7E803410686
+    7E803410B13
+    7E803410D23
+    7E803410F4C
+    7E803412F5E
+    7E80441310488
+    7E804414238F0
+    7E803414A0A
+    7E80462022789
 - expected_values:
     SHRTFT1: 3.125
   response: |-
@@ -3272,21 +3383,21 @@ test_cases:
     7E8024300
     7E804620227C4
 - expected_values:
-    SHRTFT1: 14.0625
-  response: '7E803410692'
-- expected_values:
     SHRTFT1: 12.5
   response: |-
-    7E803410692
+    7E803410691
     7E803410690
-    7E803410B36
-    7E803410D6E
-    7E803410F52
-    7E803412F77
-    7E80441310424
-    7E804414237DA
-    7E803414A0A
-    7E80462022793
+    7E803410B3A
+    7E803410D2D
+    7E803410F54
+    7E803412F68
+    7E80441310479
+    7E804414238A3
+    7E803414A1F
+    7E8046202278D
+- expected_values:
+    SHRTFT1: 14.0625
+  response: '7E803410692'
 - expected_values:
     SHRTFT1: 5.46875
   response: |-
@@ -3319,19 +3430,6 @@ test_cases:
     7E80441423847
     7E803414943
     7E804620227A3
-- expected_values:
-    SHRTFT1: 15.625
-  response: |-
-    7E803410694
-    7E803410694
-    7E803410B14
-    7E803410D1B
-    7E803410F53
-    7E803412F91
-    7E80441310234
-    7E80441423875
-    7E803414A0A
-    7E8046202279D
 - expected_values:
     SHRTFT1: 15.625
   response: |-
@@ -3379,6 +3477,19 @@ test_cases:
     7E80441423875
     7E803414A0A
     7E804620227A2
+- expected_values:
+    SHRTFT1: 16.40625
+  response: |-
+    7E803410695
+    7E803410695
+    7E803410B17
+    7E803410D3E
+    7E803410F4C
+    7E803412F63
+    7E80441310482
+    7E804414238C2
+    7E803414A0A
+    7E8046202278B
 - expected_values:
     SHRTFT1: 16.40625
   response: |-

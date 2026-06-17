@@ -393,6 +393,27 @@ test_cases:
     7E803414915
     7E804620227B3
 - expected_values:
+    VSS: 0
+  response: |-
+    7E803410D00
+    7E80641010007E500
+    7E803410D00
+    7E80441310478
+    7E8044142344B
+    7E803414915
+    7E8024300
+    7E8046202278B
+- expected_values:
+    VSS: 0
+  response: |-
+    7E803410D00
+    7E80641010007E500
+    7E803410D00
+    7E80441310478
+    7E804414238A3
+    7E803414915
+    7E8046202278B
+- expected_values:
     VSS: 7
   response: |-
     7E803410D07
@@ -415,6 +436,15 @@ test_cases:
     7E80441423894
     7E803414A0C
     7E804620227A0
+- expected_values:
+    VSS: 9
+  response: |-
+    7E803410D08
+    7E803410D09
+    7E80441310463
+    7E80441423875
+    7E803414930
+    7E8046202278D
 - expected_values:
     VSS: 8
   response: |-
@@ -497,16 +527,6 @@ test_cases:
     7E80441423702
     7E803414A2A
     7E804620227A3
-- expected_values:
-    VSS: 13
-  response: |-
-    7E803410D0D
-    7E80641010007E500
-    7E803410D0D
-    7E8044131020E
-    7E80441423847
-    7E803414921
-    7E804620227A1
 - expected_values:
     VSS: 13
   response: |-
@@ -961,15 +981,6 @@ test_cases:
     7E80641010007E500
     7E803410D22
     7E804620227C6
-- expected_values:
-    VSS: 34
-  response: |-
-    7E803410D22
-    7E803410D22
-    7E8044131020E
-    7E80441423828
-    7E803414915
-    7E804620227A1
 - expected_values:
     VSS: 35
   response: |-
@@ -1467,15 +1478,6 @@ test_cases:
     VSS: 58
   response: |-
     7E803410D3A
-    7E803410D3A
-    7E804413101D0
-    7E804414238A3
-    7E80341492B
-    7E804620227B0
-- expected_values:
-    VSS: 58
-  response: |-
-    7E803410D3A
     7E80641010007E500
     7E803410D3A
     7E804413101FC
@@ -1777,6 +1779,15 @@ test_cases:
     7E80441423894
     7E803414915
     7E804620227B3
+- expected_values:
+    VSS: 80
+  response: |-
+    7E803410D50
+    7E803410D50
+    7E80441310475
+    7E804414238F0
+    7E803414915
+    7E8046202278B
 - expected_values:
     VSS: 80
   response: |-
@@ -2579,6 +2590,15 @@ test_cases:
     7E80441423894
     7E803414916
     7E804620227B1
+- expected_values:
+    VSS: 80
+  response: |-
+    7E80641010007E500
+    7E803410D50
+    7E80441310475
+    7E8044142390F
+    7E803414915
+    7E8046202278B
 - expected_values:
     VSS: 136
   response: |-
