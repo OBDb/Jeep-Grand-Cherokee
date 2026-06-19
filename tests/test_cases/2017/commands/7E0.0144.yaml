@@ -1225,6 +1225,16 @@ test_cases:
   response: |-
     7E80441448000
     7E80641010007E500
+    7E803410D34
+    7E80441310988
+    7E80441423818
+    7E803414926
+    7E80462022783
+- expected_values:
+    EQ_RAT: 1.00002
+  response: |-
+    7E80441448000
+    7E80641010007E500
     7E803410D4A
     7E80441310468
     7E804414238F0
@@ -1241,6 +1251,11 @@ test_cases:
     7E80441423884
     7E803414934
     7E804620227B6
+- expected_values:
+    EQ_RAT: 1.00002
+  response: |-
+    7E80441448000
+    7E806416000200000
 - expected_values:
     EQ_RAT: 1.99
   response: 7E8044144FFFF
