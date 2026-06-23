@@ -26,5 +26,20 @@ test_cases:
     7E80641A6001215C8
     7E803410D00
 - expected_values:
+    ODO: 118557.8
+  response: |-
+    7E80641A60012172A
+    7E80441149883
+- expected_values:
+    ODO: 118557.9
+  response: |-
+    7E80641A60012172B
+    7E80441030200
+- expected_values:
+    ODO: 118559.4
+  response: |-
+    7E80641A60012173A
+    7E80341087D
+- expected_values:
     ODO: 131072
   response: 7E80641A600140000
