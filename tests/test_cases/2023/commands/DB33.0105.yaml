@@ -1,0 +1,319 @@
+command_id: DB33.0105
+test_cases:
+- expected_values:
+    ECT: 3
+  response: |-
+    18DAF1100341052B
+    18DAF1180341052B
+- expected_values:
+    ECT: 10
+  response: 18DAF11003410532
+- expected_values:
+    ECT: 15
+  response: |-
+    18DAF11003410537
+    18DAF12803410537
+    18DAF14B03410537
+    18DAF144034105FF
+    18DAF11803410537
+- expected_values:
+    ECT: 16
+  response: |-
+    18DAF11003410538
+    18DAF144034105FF
+    18DAF12803410538
+    18DAF14B03410538
+    18DAF11803410538
+- expected_values:
+    ECT: 215
+  response: |-
+    18DAF11003410538
+    18DAF14B03410538
+    18DAF12803410538
+    18DAF11803410538
+    18DAF144034105FF
+- expected_values:
+    ECT: 17
+  response: |-
+    18DAF11003410539
+    18DAF12803410539
+    18DAF144034105FF
+    18DAF14B03410539
+    18DAF11803410539
+- expected_values:
+    ECT: 215
+  response: |-
+    18DAF1100341053D
+    18DAF1180341053D
+    18DAF1280341053D
+    18DAF14B0341053D
+    18DAF144034105FF
+- expected_values:
+    ECT: 24
+  response: |-
+    18DAF11003410540
+    18DAF11803410540
+    18DAF144034105FF
+    18DAF14B03410540
+    18DAF12803410540
+- expected_values:
+    ECT: 24
+  response: |-
+    18DAF11003410540
+    18DAF144034105FF
+    18DAF12803410540
+    18DAF11803410540
+    18DAF14B03410540
+- expected_values:
+    ECT: 28
+  response: |-
+    18DAF11003410544
+    18DAF12803410544
+    18DAF144034105FF
+    18DAF14B03410544
+- expected_values:
+    ECT: 29
+  response: |-
+    18DAF11003410544
+    18DAF1440341055B
+    18DAF12803410545
+    18DAF14B03410545
+- expected_values:
+    ECT: 29
+  response: |-
+    18DAF11003410544
+    18DAF1440341055B
+    18DAF14B03410545
+    18DAF12803410545
+- expected_values:
+    ECT: 215
+  response: |-
+    18DAF11003410548
+    18DAF14B03410548
+    18DAF12803410548
+    18DAF144034105FF
+- expected_values:
+    ECT: 36
+  response: |-
+    18DAF1100341054C
+    18DAF144034105FF
+    18DAF1280341054C
+    18DAF14B0341054C
+- expected_values:
+    ECT: 22
+  response: |-
+    18DAF11003410563
+    18DAF12803410563
+    18DAF14B03410563
+    18DAF1440341053E
+- expected_values:
+    ECT: 88
+  response: |-
+    18DAF11003410580
+    18DAF12803410580
+    18DAF1440341054E
+    18DAF14B03410580
+- expected_values:
+    ECT: 104
+  response: |-
+    18DAF1100341058F
+    18DAF11803410590
+- expected_values:
+    ECT: 108
+  response: |-
+    18DAF11003410594
+    18DAF11803410594
+- expected_values:
+    ECT: 11
+  response: |-
+    18DAF11803410533
+    18DAF11003410533
+- expected_values:
+    ECT: 215
+  response: |-
+    18DAF11803410537
+    18DAF11003410537
+    18DAF12803410537
+    18DAF14B03410537
+    18DAF144034105FF
+- expected_values:
+    ECT: 215
+  response: |-
+    18DAF11803410537
+    18DAF14B03410537
+    18DAF11003410537
+    18DAF12803410537
+    18DAF144034105FF
+- expected_values:
+    ECT: 21
+  response: |-
+    18DAF1180341053D
+    18DAF1280341053D
+    18DAF144034105FF
+    18DAF1100341053D
+    18DAF14B0341053D
+- expected_values:
+    ECT: 22
+  response: |-
+    18DAF1180341053E
+    18DAF14B0341053E
+    18DAF1280341053E
+    18DAF144034105FF
+    18DAF1100341053E
+- expected_values:
+    ECT: 215
+  response: 18DAF118034105FF
+- expected_values:
+    ECT: -40
+  response: 18DAF12803410500
+- expected_values:
+    ECT: 36
+  response: |-
+    18DAF12803410500
+    18DAF1100341054C
+- expected_values:
+    ECT: 91
+  response: |-
+    18DAF12803410500
+    18DAF14403410546
+    18DAF14B03410583
+- expected_values:
+    ECT: 0
+  response: |-
+    18DAF12803410500
+    18DAF144034105FF
+    18DAF14B03410528
+- expected_values:
+    ECT: 215
+  response: |-
+    18DAF12803410500
+    18DAF14B03410528
+    18DAF118034105FF
+    18DAF144034105FF
+- expected_values:
+    ECT: 49
+  response: |-
+    18DAF12803410500
+    18DAF14B03410528
+    18DAF14403410559
+- expected_values:
+    ECT: 215
+  response: |-
+    18DAF12803410500
+    18DAF14B03410528
+    18DAF144034105FF
+- expected_values:
+    ECT: 39
+  response: |-
+    18DAF12803410567
+    18DAF11003410567
+    18DAF14B03410567
+    18DAF1440341054F
+- expected_values:
+    ECT: 89
+  response: |-
+    18DAF12803410581
+    18DAF14B03410581
+    18DAF1440341056E
+    18DAF11003410581
+- expected_values:
+    ECT: 59
+  response: |-
+    18DAF1440341053E
+    18DAF12803410563
+    18DAF14B03410563
+- expected_values:
+    ECT: 89
+  response: |-
+    18DAF14403410544
+    18DAF12803410500
+    18DAF14B03410581
+- expected_values:
+    ECT: 89
+  response: |-
+    18DAF14403410544
+    18DAF14B03410581
+- expected_values:
+    ECT: -40
+  response: |-
+    18DAF14403410544
+    18DAF14B03410581
+    18DAF12803410500
+- expected_values:
+    ECT: 29
+  response: |-
+    18DAF1440341055B
+    18DAF14B03410545
+    18DAF11003410544
+    18DAF12803410545
+- expected_values:
+    ECT: 20
+  response: |-
+    18DAF144034105FF
+    18DAF1100341053C
+    18DAF14B0341053C
+    18DAF1180341053C
+    18DAF1280341053C
+- expected_values:
+    ECT: 42
+  response: |-
+    18DAF144034105FF
+    18DAF11003410552
+    18DAF14B03410552
+    18DAF12803410552
+- expected_values:
+    ECT: 0
+  response: |-
+    18DAF144034105FF
+    18DAF12803410500
+    18DAF14B03410528
+- expected_values:
+    ECT: 10
+  response: |-
+    18DAF144034105FF
+    18DAF14B03410532
+    18DAF11003410532
+    18DAF11803410532
+    18DAF12803410532
+- expected_values:
+    ECT: 20
+  response: |-
+    18DAF144034105FF
+    18DAF14B0341053C
+    18DAF1100341053C
+    18DAF1280341053C
+- expected_values:
+    ECT: 0
+  response: 18DAF14B03410528
+- expected_values:
+    ECT: -40
+  response: |-
+    18DAF14B03410528
+    18DAF12803410500
+- expected_values:
+    ECT: 49
+  response: |-
+    18DAF14B03410528
+    18DAF12803410500
+    18DAF14403410559
+- expected_values:
+    ECT: 215
+  response: |-
+    18DAF14B03410528
+    18DAF12803410569
+    18DAF118034105FF
+- expected_values:
+    ECT: 10
+  response: |-
+    18DAF14B03410532
+    18DAF11803410532
+    18DAF11003410532
+    18DAF144034105FF
+    18DAF12803410532
+- expected_values:
+    ECT: 29
+  response: |-
+    18DAF14B03410545
+    18DAF1440341055B
+    18DAF11003410544
+    18DAF12803410545
