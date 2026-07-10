@@ -1,0 +1,86 @@
+command_id: DB33.015B
+test_cases:
+- expected_values:
+    BAT_SOC: 13.72549
+  response: |-
+    18DAF12803415B22
+    18DAF14403415B23
+    18DAF14B03415B23
+- expected_values:
+    BAT_SOC: 13.33333
+  response: |-
+    18DAF12803415B22
+    18DAF14B03415B23
+    18DAF14403415B22
+- expected_values:
+    BAT_SOC: 15.29412
+  response: 18DAF12803415B27
+- expected_values:
+    BAT_SOC: 18.03922
+  response: |-
+    18DAF12803415B2E
+    18DAF14B03415B2F
+    18DAF14403415B2E
+- expected_values:
+    BAT_SOC: 18.82353
+  response: |-
+    18DAF12803415B2F
+    18DAF14403415B30
+    18DAF14B03415B30
+- expected_values:
+    BAT_SOC: 38.03922
+  response: |-
+    18DAF12803415B60
+    18DAF14B03415B61
+    18DAF14403415B61
+- expected_values:
+    BAT_SOC: 64.31373
+  response: |-
+    18DAF12803415BA3
+    18DAF14B03415BA4
+- expected_values:
+    BAT_SOC: 87.45098
+  response: |-
+    18DAF12803415BDF
+    18DAF14B03415BE0
+    18DAF14403415BDF
+- expected_values:
+    BAT_SOC: 92.54902
+  response: 18DAF12803415BEC
+- expected_values:
+    BAT_SOC: 93.33333
+  response: |-
+    18DAF12803415BED
+    18DAF14403415BED
+    18DAF14B03415BEE
+- expected_values:
+    BAT_SOC: 13.33333
+  response: |-
+    18DAF14403415B22
+    18DAF14B03415B23
+    18DAF12803415B22
+- expected_values:
+    BAT_SOC: 13.72549
+  response: 18DAF14B03415B23
+- expected_values:
+    BAT_SOC: 19.60784
+  response: |-
+    18DAF14B03415B33
+    18DAF12803415B32
+    18DAF14403415B32
+- expected_values:
+    BAT_SOC: 36.47059
+  response: |-
+    18DAF14B03415B5E
+    18DAF14403415B5D
+- expected_values:
+    BAT_SOC: 92.54902
+  response: |-
+    18DAF14B03415BEC
+    18DAF12803415BEC
+- expected_values:
+    BAT_SOC: 92.94118
+  response: |-
+    18DAF14B03415BEE
+    18DAF12803415BED
+    18DAF14403415BED
