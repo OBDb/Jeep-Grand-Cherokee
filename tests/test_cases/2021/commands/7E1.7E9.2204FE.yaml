@@ -4,8 +4,11 @@ test_cases:
     GRANDCHEROKEE_ATF_T: 11
   response: 7E9066204FE333434
 - expected_values:
-    GRANDCHEROKEE_ATF_T: 83
-  response: 7E9066204FE7B7B7B
+    GRANDCHEROKEE_ATF_T: 86
+  response: 7E9066204FE7E7F7F
 - expected_values:
-    GRANDCHEROKEE_ATF_T: 83
-  response: 7E9066204FE7B7C7B
+    GRANDCHEROKEE_ATF_T: 87
+  response: 7E9066204FE7F807F
+- expected_values:
+    GRANDCHEROKEE_ATF_T: 88
+  response: 7E9066204FE807F7F
