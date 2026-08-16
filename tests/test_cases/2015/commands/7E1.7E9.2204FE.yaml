@@ -5,7 +5,7 @@ test_cases:
   response: 7E9066204FE3F3C3D
 - expected_values:
     GRANDCHEROKEE_ATF_T: 84
-  response: 7E9066204FE7C7B7B
-- expected_values:
-    GRANDCHEROKEE_ATF_T: 84
   response: 7E9066204FE7C7C7C
+- expected_values:
+    GRANDCHEROKEE_ATF_T: 86
+  response: 7E9066204FE7E7C7E
