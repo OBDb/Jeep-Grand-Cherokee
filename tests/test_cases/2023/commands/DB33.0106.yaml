@@ -1,8 +1,8 @@
 command_id: DB33.0106
 test_cases:
 - expected_values:
-    SHRTFT1: -22.65625
-  response: 18DAF11003410663
+    SHRTFT1: -100
+  response: 18DAF11003410600
 - expected_values:
     SHRTFT1: 0
   response: |-
