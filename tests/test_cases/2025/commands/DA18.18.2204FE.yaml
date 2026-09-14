@@ -1,6 +1,9 @@
 command_id: DA18.18.2204FE
 test_cases:
 - expected_values:
+    GRANDCHEROKEE_ATF_T_4THGEN: 21
+  response: 18DAF118066204FE3D4244
+- expected_values:
     GRANDCHEROKEE_ATF_T_4THGEN: 28
   response: 18DAF118066204FE44484A
 - expected_values:
