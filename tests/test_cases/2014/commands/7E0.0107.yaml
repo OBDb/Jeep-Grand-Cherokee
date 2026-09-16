@@ -10,5 +10,8 @@ test_cases:
     LONGFT1: -6.25
   response: '7E803410778'
 - expected_values:
+    LONGFT1: 0
+  response: '7E803410780'
+- expected_values:
     LONGFT1: 5.46875
   response: '7E803410787'
