@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_TID_RR: 1103784044
   response: 18DAF1C70762012741CA686C
+- expected_values:
+    GRANDCHEROKEE_TID_RR: 1105030819
+  response: 18DAF1C70762012741DD6EA3
