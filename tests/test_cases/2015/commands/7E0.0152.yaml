@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ALCH_PCT: 0
   response: '7E803415200'
+- expected_values:
+    ALCH_PCT: 2.7451
+  response: '7E803415207'
