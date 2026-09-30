@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220174
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_MAP: 17.8
+  response: '7E8056201740059'
+- expected_values:
+    GRANDCHEROKEE_MAP: 49.8
+  response: 7E80562017400F9
+- expected_values:
+    GRANDCHEROKEE_MAP: 54.4
+  response: '7E8056201740110'
