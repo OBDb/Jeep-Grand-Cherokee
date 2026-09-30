@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220236
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_INJ_WIDTH_CYL_3: 0
+  response: '7E80762023600000000'
+- expected_values:
+    GRANDCHEROKEE_INJ_WIDTH_CYL_3: 4.856
+  response: 7E807620236000012F8
+- expected_values:
+    GRANDCHEROKEE_INJ_WIDTH_CYL_3: 5.896
+  response: '7E80762023600001708'
