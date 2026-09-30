@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.2201FF
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_IAT_01FF: 40
+  response: 7E8056201FF0068
+- expected_values:
+    GRANDCHEROKEE_IAT_01FF: 41
+  response: 7E8056201FF0069
+- expected_values:
+    GRANDCHEROKEE_IAT_01FF: 42
+  response: 7E8056201FF006A
+- expected_values:
+    GRANDCHEROKEE_IAT_01FF: 44
+  response: 7E8056201FF006C
+- expected_values:
+    GRANDCHEROKEE_IAT_01FF: 45
+  response: 7E8056201FF006D
+- expected_values:
+    GRANDCHEROKEE_IAT_01FF: 47
+  response: 7E8056201FF006F
+- expected_values:
+    GRANDCHEROKEE_IAT_01FF: 48
+  response: 7E8056201FF0070
+- expected_values:
+    GRANDCHEROKEE_IAT_01FF: 49
+  response: 7E8056201FF0071
+- expected_values:
+    GRANDCHEROKEE_IAT_01FF: 51
+  response: 7E8056201FF0073
+- expected_values:
+    GRANDCHEROKEE_IAT_01FF: 52
+  response: 7E8056201FF0074

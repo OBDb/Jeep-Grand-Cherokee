@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2206C2
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: 0
+  response: 7E8056206C20000
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: -0.2
+  response: 7E8056206C2FFFE
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: -0.1
+  response: 7E8056206C2FFFF

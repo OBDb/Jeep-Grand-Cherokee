@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220329
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_AC_HIGH_SIDE_P: 770
+  response: '7E80462032937'
+- expected_values:
+    GRANDCHEROKEE_AC_HIGH_SIDE_P: 1498
+  response: 7E8046203296B
