@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.220944
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_BRAKE_BOOSTER_P: 68.55
+  response: 7E8056209441AC7
+- expected_values:
+    GRANDCHEROKEE_BRAKE_BOOSTER_P: 70.2
+  response: 7E8056209441B6C
+- expected_values:
+    GRANDCHEROKEE_BRAKE_BOOSTER_P: 72.4
+  response: 7E8056209441C48
+- expected_values:
+    GRANDCHEROKEE_BRAKE_BOOSTER_P: 74.05
+  response: 7E8056209441CED
+- expected_values:
+    GRANDCHEROKEE_BRAKE_BOOSTER_P: 74.6
+  response: 7E8056209441D24
+- expected_values:
+    GRANDCHEROKEE_BRAKE_BOOSTER_P: 75.15
+  response: 7E8056209441D5B
+- expected_values:
+    GRANDCHEROKEE_BRAKE_BOOSTER_P: 79
+  response: 7E8056209441EDC
+- expected_values:
+    GRANDCHEROKEE_BRAKE_BOOSTER_P: 80.65
+  response: 7E8056209441F81
+- expected_values:
+    GRANDCHEROKEE_BRAKE_BOOSTER_P: 82.85
+  response: 7E805620944205D
