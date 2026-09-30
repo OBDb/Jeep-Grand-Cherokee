@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_THROTTLE_INLET_P: 100.54375
   response: 7E8056212473ED7
+- expected_values:
+    GRANDCHEROKEE_THROTTLE_INLET_P: 100.7
+  response: 7E8056212473EF0
