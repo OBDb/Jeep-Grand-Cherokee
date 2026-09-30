@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2201A9
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_KNOCK_SENS_1: 0.44923
+  response: 7E8056201A91700
+- expected_values:
+    GRANDCHEROKEE_KNOCK_SENS_1: 0.46387
+  response: 7E8056201A917C0
+- expected_values:
+    GRANDCHEROKEE_KNOCK_SENS_1: 0.98146
+  response: 7E8056201A93240
