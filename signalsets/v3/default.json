@@ -170,7 +170,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "012B"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
-    {"id": "GRANDCHEROKEE_CAT_MODEL_T", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 191, "min": -64, "add": -64, "unit": "celsius" }, "name": "Catalyst modeled temperature"}
+    {"id": "GRANDCHEROKEE_CAT_MODEL_T", "path": "Engine", "fmt": { "len": 16, "max": 1000, "unit": "celsius" }, "name": "Catalyst modeled temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0166"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
