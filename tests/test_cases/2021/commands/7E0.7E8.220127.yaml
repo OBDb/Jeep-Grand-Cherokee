@@ -1,6 +1,15 @@
 command_id: 7E0.7E8.220127
 test_cases:
 - expected_values:
+    GRANDCHEROKEE_AAT: 80.8
+  response: 7E8046201275B
+- expected_values:
+    GRANDCHEROKEE_AAT: 82.6
+  response: 7E8046201275C
+- expected_values:
+    GRANDCHEROKEE_AAT: 84.4
+  response: 7E8046201275D
+- expected_values:
     GRANDCHEROKEE_AAT: 86.2
   response: 7E8046201275E
 - expected_values:
