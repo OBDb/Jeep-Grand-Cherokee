@@ -1,0 +1,11 @@
+command_id: DA18.18.221018
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_TCM_TORQUE: -59
+  response: 18DAF1180562101801B9
+- expected_values:
+    GRANDCHEROKEE_TCM_TORQUE: 11
+  response: 18DAF1180562101801FF
+- expected_values:
+    GRANDCHEROKEE_TCM_TORQUE: 12
+  response: 18DAF118056210180200
