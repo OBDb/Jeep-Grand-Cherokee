@@ -1,0 +1,6 @@
+command_id: DA18.18.22051A|f=2020-
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_GEAR_CURRENT: null
+    GRANDCHEROKEE_GEAR_DESIRED: null
+  response: 18DAF1180462051ADD
