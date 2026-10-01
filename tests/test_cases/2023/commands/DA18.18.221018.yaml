@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_TCM_TORQUE: -500
   response: 18DAF118056210180000
+- expected_values:
+    GRANDCHEROKEE_TCM_TORQUE: -7
+  response: 18DAF1180562101801ED
