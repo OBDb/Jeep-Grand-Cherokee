@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221250
 test_cases:
 - expected_values:
-    GRANDCHEROKEE_CHG_AIR_T: 104.2
-  response: '7E80462125068'
+    GRANDCHEROKEE_CHG_AIR_T: 100.6
+  response: '7E80462125066'
 - expected_values:
     GRANDCHEROKEE_CHG_AIR_T: 129.4
   response: '7E80462125076'

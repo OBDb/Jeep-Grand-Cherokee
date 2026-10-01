@@ -19,5 +19,8 @@ test_cases:
     GRANDCHEROKEE_GEAR: '6'
   response: '7E90462550306'
 - expected_values:
+    GRANDCHEROKEE_GEAR: '8'
+  response: '7E90462550308'
+- expected_values:
     GRANDCHEROKEE_GEAR: PARK
   response: 7E9046255030D
