@@ -1,0 +1,8 @@
+command_id: 763.4E3.22032D|fc=1
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_HIGHBEAMS_ON: 0
+    GRANDCHEROKEE_REAR_WIPER: 'OFF'
+  response: |-
+    4E3100862032D090000
+    4E3210000032D090000
