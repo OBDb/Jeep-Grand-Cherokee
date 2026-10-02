@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220227
 test_cases:
 - expected_values:
-    GRANDCHEROKEE_FLI_INPUT: 100
+    GRANDCHEROKEE_FLI_INPUT: 60.39216
   response: 7E8046202279A
 - expected_values:
-    GRANDCHEROKEE_FLI_INPUT: 100
+    GRANDCHEROKEE_FLI_INPUT: 60.78431
   response: 7E8046202279B
