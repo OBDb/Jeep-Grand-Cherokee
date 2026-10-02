@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22022A
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_EOP: 51.04
+  response: 7E80462022A58
