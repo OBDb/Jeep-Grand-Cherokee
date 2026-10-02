@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220127
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_AAT: 88
+  response: 7E8046201275F
