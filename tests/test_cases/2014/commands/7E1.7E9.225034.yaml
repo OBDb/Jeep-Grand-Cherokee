@@ -6,3 +6,15 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_MAIN_CYL_P: -39.9
   response: '7E9056250340001'
+- expected_values:
+    GRANDCHEROKEE_MAIN_CYL_P: -39.8
+  response: '7E9056250340002'
+- expected_values:
+    GRANDCHEROKEE_MAIN_CYL_P: -39.6
+  response: '7E9056250340004'
+- expected_values:
+    GRANDCHEROKEE_MAIN_CYL_P: -36.3
+  response: '7E9056250340025'
+- expected_values:
+    GRANDCHEROKEE_MAIN_CYL_P: -18.3
+  response: 7E90562503400D9
