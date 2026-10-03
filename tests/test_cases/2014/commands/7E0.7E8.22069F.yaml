@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_VARIABLE_VLV_TIM_OIL_T: 62
   response: 7E80462069F7E
+- expected_values:
+    GRANDCHEROKEE_VARIABLE_VLV_TIM_OIL_T: 88
+  response: 7E80462069F98
+- expected_values:
+    GRANDCHEROKEE_VARIABLE_VLV_TIM_OIL_T: 89
+  response: 7E80462069F99

@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_KNOCK_SENS_2: 0.33692
   response: 7E8056201AA1140
+- expected_values:
+    GRANDCHEROKEE_KNOCK_SENS_2: 0.39063
+  response: 7E8056201AA1400
+- expected_values:
+    GRANDCHEROKEE_KNOCK_SENS_2: 0.44434
+  response: 7E8056201AA16C0
+- expected_values:
+    GRANDCHEROKEE_KNOCK_SENS_2: 0.50782
+  response: 7E8056201AA1A00

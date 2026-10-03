@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22069E
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_VARIABLE_VLV_TIM_OIL_P: 248
+  response: 7E80462069E3E
+- expected_values:
+    GRANDCHEROKEE_VARIABLE_VLV_TIM_OIL_P: 252
+  response: 7E80462069E3F

@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_INT_CAM_1_OFFSET: 0
   response: 7E8056206C20000
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: -4.2
+  response: 7E8056206C2FFD6
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: -4.1
+  response: 7E8056206C2FFD7
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: -4
+  response: 7E8056206C2FFD8
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: -3.9
+  response: 7E8056206C2FFD9
