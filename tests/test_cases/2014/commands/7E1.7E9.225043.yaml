@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_ATF_T_7E1: 89
   response: '7E90462504381'
+- expected_values:
+    GRANDCHEROKEE_ATF_T_7E1: 90
+  response: '7E90462504382'
+- expected_values:
+    GRANDCHEROKEE_ATF_T_7E1: 91
+  response: '7E90462504383'
+- expected_values:
+    GRANDCHEROKEE_ATF_T_7E1: 92
+  response: '7E90462504384'
