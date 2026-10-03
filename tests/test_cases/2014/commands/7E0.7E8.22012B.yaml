@@ -1,17 +1,8 @@
 command_id: 7E0.7E8.22012B
 test_cases:
 - expected_values:
-    GRANDCHEROKEE_CAT_MODEL_T: 566
-  response: 7E80562012B0236
+    GRANDCHEROKEE_CAT_MODEL_T: 554
+  response: 7E80562012B022A
 - expected_values:
-    GRANDCHEROKEE_CAT_MODEL_T: 567
-  response: 7E80562012B0237
-- expected_values:
-    GRANDCHEROKEE_CAT_MODEL_T: 568
-  response: 7E80562012B0238
-- expected_values:
-    GRANDCHEROKEE_CAT_MODEL_T: 569
-  response: 7E80562012B0239
-- expected_values:
-    GRANDCHEROKEE_CAT_MODEL_T: 570
-  response: 7E80562012B023A
+    GRANDCHEROKEE_CAT_MODEL_T: 759
+  response: 7E80562012B02F7
