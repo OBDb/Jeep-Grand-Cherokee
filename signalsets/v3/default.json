@@ -70,7 +70,7 @@
     {"id": "GRANDCHEROKEE_AAT_7E0", "path": "Engine",  "fmt": {           "len": 16, "max": 1023, "div": 64, "unit": "fahrenheit" }, "name": "Ambient air temperature"},
     {"id": "GRANDCHEROKEE_BAT_T",   "path": "Battery", "fmt": {"bix": 48, "len": 16, "max": 1023, "div": 64, "unit": "fahrenheit" }, "name": "Battery temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "2D"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "2D"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_EOT_212D", "path": "Engine", "fmt": {"bix": 56, "len": 8, "max": 376, "min": -83, "mul": 9, "div": 5, "add": -83, "unit": "fahrenheit" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -85,11 +85,11 @@
     {"id": "GRANDCHEROKEE_EXH_GAS_T_2_7E0", "path": "Engine", "fmt": {"bix": 288, "len": 16, "max": 32767, "div": 2, "unit": "fahrenheit" }, "name": "Exhaust gas temperature 2"},
     {"id": "GRANDCHEROKEE_DPF_REGEN",       "path": "Engine", "fmt": {"bix": 383, "len": 1,  "max": 1,               "unit": "offon"      }, "name": "Diesel particulate filter regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "4D"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "4D"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_SOOT_LOAD", "path": "Engine", "fmt": {"bix": 8, "len": 16, "max": 511, "div": 128, "unit": "gravity" }, "name": "Soot load"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "57"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "57"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_SOOT_LOAD_BASED_ON_P", "path": "Engine", "fmt": {          "len": 8,  "max": 34.55, "div": 100, "add": 32, "unit": "unknown" }, "name": "Soot load based on delta pressure"},
     {"id": "GRANDCHEROKEE_ESITMATED_SOOT",       "path": "Engine", "fmt": {"bix": 8, "len": 16, "max": 65535,                        "unit": "seconds" }, "name": "Estimated soot removal time"}
@@ -102,7 +102,7 @@
   "signals": [
     {"id": "GRANDCHEROKEE_FLI", "path": "Fuel", "fmt": {"bix": 96, "len": 16, "max": 255, "div": 256, "unit": "percent" }, "name": "Fuel level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "B2"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "B2"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_BOOST_P_ESTIMATE", "path": "Engine",  "fmt": {"bix": 32,  "len": 16, "max": 148,              "div": 441,             "unit": "psi"        }, "name": "Boost pressure estimate"},
     {"id": "GRANDCHEROKEE_CRANKCASE_P",      "path": "Engine",  "fmt": {"bix": 96,  "len": 16, "max": 37.21,            "div": 1761,            "unit": "psi"        }, "name": "Crankcase pressure"},
@@ -113,12 +113,12 @@
   "signals": [
     {"id": "GRANDCHEROKEE_RADIATOR_FAN_SPD", "path": "Movement", "fmt": {"bix": 80, "len": 8, "max": 132600, "mul": 520, "unit": "rpm" }, "name": "Radiator fan speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "B4"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "B4"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_FUEL_P_SENS_1000_S", "path": "Fuel",    "fmt": {           "len": 16, "max": 118,            "div": 552,            "unit": "psi"        }, "name": "Fuel pressure sensor, 1000's psi"},
     {"id": "GRANDCHEROKEE_CHG_AIR_COOLER_T",   "path": "Battery", "fmt": {"bix": 96, "len": 16, "max": 1875, "mul": 9, "div": 320, "add": 32, "unit": "fahrenheit" }, "name": "Charge air cooler outlet temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "CA"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "CA"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_OUTPUT_SHFT_SPD",       "path": "Movement",     "fmt": {"bix": 64, "len": 16, "max": 8191,           "div": 8,              "unit": "rpm"        }, "name": "Output shaft speed"},
     {"id": "GRANDCHEROKEE_TRANS_SUMP_T_VAR_2",    "path": "Transmission", "fmt": {"bix": 80, "len": 8,  "max": 1020, "mul": 4,                        "unit": "fahrenheit" }, "name": "Transmission sump temperature, variant 2"},
@@ -160,7 +160,7 @@
     {"id": "GRANDCHEROKEE_VGT_COMP_OULET_AIR_T", "path": "Engine",   "fmt": {"bix": 112, "len": 16, "max": 29522,  "mul": 9,            "div": 20, "add": 32, "unit": "fahrenheit"       }, "name": "Variable geometry turbo compressor outlet air temperature"},
     {"id": "GRANDCHEROKEE_VGT_COMP_INLET_AIR_T", "path": "Engine",   "fmt": {"bix": 144, "len": 16, "max": 29522,  "mul": 9,            "div": 20, "add": 32, "unit": "fahrenheit"       }, "name": "Variable geometry turbo compressor inlet air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0109"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0109"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_BAROMETRIC_P", "path": "Engine", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
@@ -168,7 +168,7 @@
   "signals": [
     {"id": "GRANDCHEROKEE_AAT", "path": "Engine", "fmt": { "len": 8, "max": 376, "min": -83, "mul": 9, "div": 5, "add": -83, "unit": "fahrenheit" }, "name": "Ambient temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "012B"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "012B"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_CAT_MODEL_T", "path": "Engine", "fmt": { "len": 16, "max": 1000, "unit": "celsius" }, "name": "Catalyst modeled temperature"}
   ]},
@@ -181,7 +181,7 @@
     {"id": "GRANDCHEROKEE_FUEL_MASS_CORR_CYL_5", "path": "Fuel", "fmt": {"bix": 208, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "scalar" }, "name": "Fuel mass correction, cylinder 5"},
     {"id": "GRANDCHEROKEE_FUEL_MASS_CORR_CYL_6", "path": "Fuel", "fmt": {"bix": 224, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "scalar" }, "name": "Fuel mass correction, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0168"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0168"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_EOT",              "path": "Engine", "fmt": {"bix": 160, "len": 16, "max": 3003.56, "min": -3549.94, "div": 10,  "add": -273.14, "sign": true, "unit": "celsius" }, "name": "Engine oil temperature",                        "suggestedMetric": "engineOilTemperature"},
     {"id": "GRANDCHEROKEE_SENSED_P_PF_DN",   "path": "Engine", "fmt": {"bix": 176, "len": 16, "max": 32767,   "min": -32768,                               "sign": true, "unit": "unknown" }, "name": "Sensed pressure particulate filter downstream"},
@@ -192,7 +192,7 @@
     {"id": "GRANDCHEROKEE_T_BEFORE_DPF",     "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 6280.36, "min": -273.14,  "div": 10,  "add": -273.14,               "unit": "celsius" }, "name": "Temperature before diesel particulate filter"},
     {"id": "GRANDCHEROKEE_T_BEFORE_TURBINE", "path": "Engine", "fmt": {"bix": 408, "len": 16, "max": 6280.36, "min": -273.14,  "div": 10,  "add": -273.14,               "unit": "celsius" }, "name": "Temperature before turbine"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0174"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0174"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_MAP", "path": "Engine", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "kilopascal" }, "name": "Intake manifold air pressure"}
   ]},
@@ -200,13 +200,13 @@
   "signals": [
     {"id": "GRANDCHEROKEE_SOOT_MASS_FLOW_EXH", "path": "Engine", "fmt": {"bix": 192, "len": 32, "max": 21474836, "min": -21474836, "div": 100, "sign": true, "unit": "unknown" }, "name": "Soot mass flow in exhaust gas after combustion"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "017E"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "017E"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_EXH_T_EGR_COOLER_DN", "path": "Engine", "fmt": {           "len": 16, "max": 3003.56, "min": -3549.94, "div": 10, "add": -273.14, "sign": true, "unit": "celsius" }, "name": "Exhaust temperature, EGR cooler downstream"},
     {"id": "GRANDCHEROKEE_EXH_T_DN_EXH",        "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 3003.56, "min": -3549.94, "div": 10, "add": -273.14, "sign": true, "unit": "celsius" }, "name": "Exhaust temperature, downstream of exhaust manifold"},
     {"id": "GRANDCHEROKEE_EXH_T_UP_EXH",        "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 3003.56, "min": -3549.94, "div": 10, "add": -273.14, "sign": true, "unit": "celsius" }, "name": "Exhaust temperature, upstream of exhaust manifold"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "01A9"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "01A9"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_KNOCK_SENS_1", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 13107, "unit": "volts" }, "name": "Knock sensor 1"}
   ]},
@@ -222,7 +222,7 @@
   "signals": [
     {"id": "GRANDCHEROKEE_IAT_01FF", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 191, "min": -64, "add": -64, "unit": "celsius" }, "name": "Intake manifold air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0227"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0227"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_FLI_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level input", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -230,11 +230,11 @@
   "signals": [
     {"id": "GRANDCHEROKEE_EOP", "path": "Engine", "fmt": { "len": 8, "max": 147.8999, "mul": 29, "div": 50, "unit": "psi" }, "name": "Engine oil pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0234"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0234"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_INJ_WIDTH_CYL_1", "path": "Engine", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "milliseconds" }, "name": "Injector pulse width, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0235"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0235"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_INJ_WIDTH_CYL_2", "path": "Engine", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "milliseconds" }, "name": "Injector pulse width, cylinder 2"}
   ]},
@@ -242,11 +242,11 @@
   "signals": [
     {"id": "GRANDCHEROKEE_INJ_WIDTH_CYL_3", "path": "Engine", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "milliseconds" }, "name": "Injector pulse width, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0237"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0237"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_INJ_WIDTH_CYL_4", "path": "Engine", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "milliseconds" }, "name": "Injector pulse width, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0255"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0255"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_FUEL_MASS_CYL_1", "path": "Fuel", "fmt": { "len": 16, "max": 1023.9843, "div": 64, "unit": "unknown" }, "name": "Fuel mass, cylinder 1"}
   ]},
@@ -254,11 +254,11 @@
   "signals": [
     {"id": "GRANDCHEROKEE_FUEL_MASS_CYL_2", "path": "Fuel", "fmt": { "len": 16, "max": 1023.9843, "div": 64, "unit": "unknown" }, "name": "Fuel mass, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0257"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0257"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_FUEL_MASS_CYL_3", "path": "Fuel", "fmt": { "len": 16, "max": 1023.9843, "div": 64, "unit": "unknown" }, "name": "Fuel mass, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0258"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0258"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_FUEL_MASS_CYL_4", "path": "Fuel", "fmt": { "len": 16, "max": 1023.9843, "div": 64, "unit": "unknown" }, "name": "Fuel mass, cylinder 4"}
   ]},
@@ -266,23 +266,23 @@
   "signals": [
     {"id": "GRANDCHEROKEE_FUEL_RAIL_P", "path": "Fuel", "fmt": {"bix": 24, "len": 8, "max": 36.9749, "mul": 29, "div": 200, "unit": "psi" }, "name": "Fuel rail pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "02B2"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "02B2"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_REQUIRED_FUEL_CHG_1", "path": "Battery", "fmt": { "len": 16, "max": 1023.9843, "div": 64, "unit": "unknown" }, "name": "Required fuel charge, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "02B3"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "02B3"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_REQUIRED_FUEL_CHG_2", "path": "Battery", "fmt": { "len": 16, "max": 1023.9843, "div": 64, "unit": "unknown" }, "name": "Required fuel charge, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "02B4"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "02B4"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_REQUIRED_FUEL_CHG_3", "path": "Battery", "fmt": { "len": 16, "max": 1023.9843, "div": 64, "unit": "unknown" }, "name": "Required fuel charge, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "02B5"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "02B5"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_REQUIRED_FUEL_CHG_4", "path": "Battery", "fmt": { "len": 16, "max": 1023.9843, "div": 64, "unit": "unknown" }, "name": "Required fuel charge, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0329"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0329"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_AC_HIGH_SIDE_P", "path": "Engine", "fmt": { "len": 8, "max": 3570, "mul": 14, "unit": "kilopascal" }, "name": "Air conditioning high side pressure"}
   ]},
@@ -298,7 +298,7 @@
   "signals": [
     {"id": "GRANDCHEROKEE_EXH_CAM_1_OFFSET", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Exhaust camshaft 1 to crankshaft offset"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "069E"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "069E"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_VARIABLE_VLV_TIM_OIL_P", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Variable valve timing oil pressure"}
   ]},
@@ -310,15 +310,15 @@
   "signals": [
     {"id": "GRANDCHEROKEE_INT_CAM_1_OFFSET", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Intake camshaft 1 to crankshaft offset"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "06F3"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "06F3"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_FUEL_RAIL_P_06F3", "path": "Fuel", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "unknown" }, "name": "Fuel rail pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0944"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0944"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_BRAKE_BOOSTER_P", "path": "Control", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilopascal" }, "name": "Brake booster pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0ECA"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0ECA"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_MDS_ACTIVE", "path": "Engine", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "offon" }, "name": "Multi-displacement system active"}
   ]},
@@ -578,15 +578,15 @@
   "signals": [
     {"id": "GRANDCHEROKEE_CURRENT_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "5034"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "5034"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_MAIN_CYL_P", "path": "Engine", "fmt": { "len": 16, "max": 6513, "min": -40, "div": 10, "add": -40, "unit": "bars" }, "name": "AT main cylinder pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "5043"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "5043"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_ATF_T_7E1", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "5503"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "5503"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"bix": 4, "len": 4, "map": {
           "0":  { "description": "Neutral",      "value": "NEUTRAL" },
@@ -605,7 +605,7 @@
         }}
     }
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "5504"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "5504"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_GEAR_TARGET", "path": "Transmission", "name": "Target gear", "description": "The target gear.", "fmt": {"bix": 4, "len": 4, "map": {
           "0":  { "description": "Neutral",      "value": "NEUTRAL" },
