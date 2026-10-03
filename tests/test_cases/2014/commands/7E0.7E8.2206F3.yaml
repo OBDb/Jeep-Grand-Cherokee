@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2206F3
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_FUEL_RAIL_P_06F3: 0
+  response: 7E8056206F30000
