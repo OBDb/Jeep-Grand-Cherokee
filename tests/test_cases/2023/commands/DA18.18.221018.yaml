@@ -1,7 +1,7 @@
 command_id: DA18.18.221018
 test_cases:
 - expected_values:
-    GRANDCHEROKEE_TCM_TORQUE: -500
+    GRANDCHEROKEE_TCM_TORQUE: null
   response: 18DAF118056210180000
 - expected_values:
     GRANDCHEROKEE_TCM_TORQUE: -7
