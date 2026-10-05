@@ -651,7 +651,7 @@
   ]},
 { "hdr": "DA18", "rax": "18", "cmd": {"22": "1018"}, "freq": 2, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
   "signals": [
-    {"id": "GRANDCHEROKEE_TCM_TORQUE", "path": "Transmission", "fmt": { "len": 16, "max": 1000, "min": -500, "add": -500, "unit": "newtonMeters" }, "name": "Transmission-reported torque"}
+    {"id": "GRANDCHEROKEE_TCM_TORQUE", "path": "Transmission", "fmt": { "len": 16, "max": 1000, "min": -500, "add": -500, "nullmin": -500, "unit": "newtonMeters" }, "name": "Transmission-reported torque"}
   ]},
 { "hdr": "DA18", "rax": "18", "cmd": {"22": "2024"}, "freq": 86400, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
