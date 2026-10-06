@@ -10,6 +10,9 @@ test_cases:
     GRANDCHEROKEE_STEER_ANGLE: -7.3
   response: 18DAF130076208851BD71BD7
 - expected_values:
+    GRANDCHEROKEE_STEER_ANGLE: 1.4
+  response: 18DAF130076208851C2E1C2E
+- expected_values:
     GRANDCHEROKEE_STEER_ANGLE: 1.7
   response: 18DAF130076208851C311C31
 - expected_values:
