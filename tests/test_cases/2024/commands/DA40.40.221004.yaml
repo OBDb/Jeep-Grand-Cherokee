@@ -1,0 +1,11 @@
+command_id: DA40.40.221004
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_BATT_V_BCM: 14.1
+  response: 18DAF140046210048D
+- expected_values:
+    GRANDCHEROKEE_BATT_V_BCM: 14.2
+  response: 18DAF140046210048E
+- expected_values:
+    GRANDCHEROKEE_BATT_V_BCM: 14.3
+  response: 18DAF140046210048F
