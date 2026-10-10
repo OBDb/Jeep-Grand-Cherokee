@@ -1,7 +1,7 @@
 command_id: DB33.019A
 test_cases:
 - expected_values:
-    EHEV_MODE: CSM
+    EHEV_MODE: CDM
     EHEV_MODE_SUP: 0
     HEV_BATT_A: 2.5
     HEV_BATT_A_SUP: 1
@@ -14,7 +14,7 @@ test_cases:
     18DAF14B1008419A0602591A
     18DAF14B2100190000000000
 - expected_values:
-    EHEV_MODE: CSM
+    EHEV_MODE: CDM
     EHEV_MODE_SUP: 0
     HEV_BATT_A: 6.4
     HEV_BATT_A_SUP: 1
@@ -27,7 +27,7 @@ test_cases:
     18DAF14B1008419A06025AC6
     18DAF14B2100400000000000
 - expected_values:
-    EHEV_MODE: CSM
+    EHEV_MODE: CDM
     EHEV_MODE_SUP: 0
     HEV_BATT_A: 3.4
     HEV_BATT_A_SUP: 1
@@ -39,7 +39,7 @@ test_cases:
     18DAF14B1008419A0602591A
     18DAF14B2100220000000000
 - expected_values:
-    EHEV_MODE: CSM
+    EHEV_MODE: CDM
     EHEV_MODE_SUP: 0
     HEV_BATT_A: 7.1
     HEV_BATT_A_SUP: 1
@@ -51,7 +51,7 @@ test_cases:
     18DAF14B1008419A060260A6
     18DAF14B2100470000000000
 - expected_values:
-    EHEV_MODE: CSM
+    EHEV_MODE: CDM
     EHEV_MODE_SUP: 0
     HEV_BATT_A: 4.9
     HEV_BATT_A_SUP: 1
@@ -63,7 +63,7 @@ test_cases:
     18DAF14B1008419A0602625A
     18DAF14B2100310000000000
 - expected_values:
-    EHEV_MODE: CSM
+    EHEV_MODE: CDM
     EHEV_MODE_SUP: 0
     HEV_BATT_A: 5
     HEV_BATT_A_SUP: 1

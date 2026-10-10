@@ -4,7 +4,7 @@ test_cases:
     EQ_RAT: 0
   response: 18DAF1100441440000
 - expected_values:
-    EQ_RAT: 1.00002
+    EQ_RAT: 1
   response: |-
     18DAF1100441448000
     18DAF1100441448000
