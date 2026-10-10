@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2201FF
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_IAT_01FF: 19
+  response: 7E8056201FF0053
+- expected_values:
+    GRANDCHEROKEE_IAT_01FF: 38
+  response: 7E8056201FF0066

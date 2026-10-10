@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220227
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_FLI_INPUT: 57.2549
+  response: '7E80462022792'
+- expected_values:
+    GRANDCHEROKEE_FLI_INPUT: 58.03922
+  response: '7E80462022794'
+- expected_values:
+    GRANDCHEROKEE_FLI_INPUT: 58.82353
+  response: '7E80462022796'

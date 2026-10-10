@@ -1,0 +1,28 @@
+command_id: 7E0.7E8.2206C2
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: 0
+  response: 7E8056206C20000
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: 0.1
+  response: 7E8056206C20001
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: 0.2
+  response: 7E8056206C20002
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: 0.3
+  response: 7E8056206C20003
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: 0.4
+  response: 7E8056206C20004
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: 0.5
+  response: 7E8056206C20005
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: 0.6
+  response: 7E8056206C20006
+- expected_values:
+    GRANDCHEROKEE_INT_CAM_1_OFFSET: 0.4
+  response: |-
+    7E824091740233FD540
+    7E8056206C20004
