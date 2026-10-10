@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.225034
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_MAIN_CYL_P: -40
+  response: '7E9056250340000'
+- expected_values:
+    GRANDCHEROKEE_MAIN_CYL_P: -39.9
+  response: '7E9056250340001'
+- expected_values:
+    GRANDCHEROKEE_MAIN_CYL_P: -39.8
+  response: '7E9056250340002'
+- expected_values:
+    GRANDCHEROKEE_MAIN_CYL_P: -39.7
+  response: '7E9056250340003'
