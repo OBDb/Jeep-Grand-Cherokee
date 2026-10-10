@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22022A
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_EOP: 25.52
+  response: 7E80462022A2C
+- expected_values:
+    GRANDCHEROKEE_EOP: 30.74
+  response: 7E80462022A35
+- expected_values:
+    GRANDCHEROKEE_EOP: 31.32
+  response: 7E80462022A36
+- expected_values:
+    GRANDCHEROKEE_EOP: 31.9
+  response: 7E80462022A37
