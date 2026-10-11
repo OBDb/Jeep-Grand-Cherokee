@@ -1,6 +1,12 @@
 command_id: 740.4C0.22A0F3|fc=1
 test_cases:
 - expected_values:
+    GRANDCHEROKEE_TP_RR_740: 32.238
+    GRANDCHEROKEE_TT_RR_740: 15
+  response: |-
+    4C0100862A0F351410A
+    4C02103DCA0F351410A
+- expected_values:
     GRANDCHEROKEE_TP_RR_740: 33.83
     GRANDCHEROKEE_TT_RR_740: 24
   response: |-
