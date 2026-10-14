@@ -15,6 +15,9 @@ test_cases:
     AAT: 24
   response: 18DAF11003414640
 - expected_values:
+    AAT: 58
+  response: 18DAF11003414662
+- expected_values:
     AAT: 11
   response: |-
     18DAF14B0341462C
