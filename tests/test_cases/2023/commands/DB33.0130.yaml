@@ -17,6 +17,11 @@ test_cases:
     18DAF11803413076
     18DAF1440341307F
 - expected_values:
+    WARM_UPS: 255
+  response: |-
+    18DAF110034130FF
+    18DAF118034130FF
+- expected_values:
     WARM_UPS: 12
   response: |-
     18DAF14B03413008
