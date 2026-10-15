@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_FLI_INPUT: 60.78431
   response: 7E8046202279B
+- expected_values:
+    GRANDCHEROKEE_FLI_INPUT: 78.03922
+  response: 7E804620227C7
+- expected_values:
+    GRANDCHEROKEE_FLI_INPUT: 78.43137
+  response: 7E804620227C8
