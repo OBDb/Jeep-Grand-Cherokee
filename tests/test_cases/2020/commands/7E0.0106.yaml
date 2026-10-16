@@ -11,3 +11,8 @@ test_cases:
   response: |-
     7E824091740233FD540
     7E803410673
+- expected_values:
+    SHRTFT1: 2.34375
+  response: |-
+    7E824091740233FD540
+    7E803410683
