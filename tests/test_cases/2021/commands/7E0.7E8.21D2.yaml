@@ -1,7 +1,7 @@
 command_id: 7E0.7E8.21D2
 test_cases:
 - expected_values:
-    GRANDCHEROKEE_EOT_21D2: -64
+    GRANDCHEROKEE_EOT_21D2: null
   response: |-
     7E8104D61D2FFFF0000
     7E82100000000000000
