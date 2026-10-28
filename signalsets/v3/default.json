@@ -5,7 +5,7 @@
     { "hdr": "DA40", "type": "bodyControl" }
   ],
   "commands": [
-{ "hdr": "740", "rax": "4C0", "fcm1": true, "cmd": {"22": "A0A1"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2022 },
+{ "hdr": "740", "rax": "4C0", "fcm1": true, "cmd": {"22": "A0A1"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2019], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_FL_AC", "path": "Tires", "fmt": {           "len": 8, "max": 255, "unit": "psi" }, "name": "Front left tire pressure, altitude compensated",  "suggestedMetric": "frontLeftTirePressure"},
     {"id": "GRANDCHEROKEE_TP_FR_AC", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "psi" }, "name": "Front right tire pressure, altitude compensated", "suggestedMetric": "frontRightTirePressure"},
@@ -19,17 +19,17 @@
     {"id": "GRANDCHEROKEE_TP_FR_VALID", "path": "Tires", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front right tire pressure, valid?"},
     {"id": "GRANDCHEROKEE_TP_FL_VALID", "path": "Tires", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front left tire pressure, valid?"}
   ]},
-{ "hdr": "740", "rax": "4C0", "fcm1": true, "cmd": {"22": "A0F1"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2022 },
+{ "hdr": "740", "rax": "4C0", "fcm1": true, "cmd": {"22": "A0F1"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2019], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_FL_740", "path": "Tires", "fmt": {          "len": 8, "max": 101.49,             "mul": 0.398,             "unit": "psi"     }, "name": "Front left tire pressure",    "suggestedMetric": "frontLeftTirePressure"},
     {"id": "GRANDCHEROKEE_TT_FL_740", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 205,    "min": -50,               "add": -50, "unit": "celsius" }, "name": "Front left tire temperature"}
   ]},
-{ "hdr": "740", "rax": "4C0", "fcm1": true, "cmd": {"22": "A0F2"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2022 },
+{ "hdr": "740", "rax": "4C0", "fcm1": true, "cmd": {"22": "A0F2"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2019], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_FR_740", "path": "Tires", "fmt": {          "len": 8, "max": 101.49,             "mul": 0.398,             "unit": "psi"     }, "name": "Front right tire pressure",    "suggestedMetric": "frontRightTirePressure"},
     {"id": "GRANDCHEROKEE_TT_FR_740", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 205,    "min": -50,               "add": -50, "unit": "celsius" }, "name": "Front right tire temperature"}
   ]},
-{ "hdr": "740", "rax": "4C0", "fcm1": true, "cmd": {"22": "A0F3"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019], "from": 2022 },
+{ "hdr": "740", "rax": "4C0", "fcm1": true, "cmd": {"22": "A0F3"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2019], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_TP_RR_740", "path": "Tires", "fmt": {          "len": 8, "max": 101.49,             "mul": 0.398,             "unit": "psi"     }, "name": "Rear right tire pressure",    "suggestedMetric": "rearRightTirePressure"},
     {"id": "GRANDCHEROKEE_TT_RR_740", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 205,    "min": -50,               "add": -50, "unit": "celsius" }, "name": "Rear right tire temperature"}
