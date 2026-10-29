@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2218E7
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_DPF_REGENS_18E7: 708
+  response: 7E8056218E702C4
+- expected_values:
+    GRANDCHEROKEE_DPF_REGENS_18E7: 710
+  response: 7E8056218E702C6

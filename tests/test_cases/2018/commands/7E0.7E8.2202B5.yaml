@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2202B5
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_REQUIRED_FUEL_CHG_4: 4.82812
+  response: 7E8056202B50135
+- expected_values:
+    GRANDCHEROKEE_REQUIRED_FUEL_CHG_4: 7.98438
+  response: 7E8056202B501FF
+- expected_values:
+    GRANDCHEROKEE_REQUIRED_FUEL_CHG_4: 40.01562
+  response: 7E8056202B50A01
