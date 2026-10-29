@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221737
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_FL_WHL_SPD: 0
+  response: '7E8056217370000'
+- expected_values:
+    GRANDCHEROKEE_FL_WHL_SPD: 27.98438
+  response: 7E80562173706FF
+- expected_values:
+    GRANDCHEROKEE_FL_WHL_SPD: 117.14062
+  response: 7E8056217371D49

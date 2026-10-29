@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2214B1
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_THROTTLE_INLET_AIR_T: 22
+  response: 7E8056214B10056
+- expected_values:
+    GRANDCHEROKEE_THROTTLE_INLET_AIR_T: 54
+  response: 7E8056214B10076

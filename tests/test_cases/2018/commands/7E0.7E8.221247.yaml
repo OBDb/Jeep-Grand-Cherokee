@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221247
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_THROTTLE_INLET_P: 97.55
+  response: 7E8056212473CF8
+- expected_values:
+    GRANDCHEROKEE_THROTTLE_INLET_P: 97.5625
+  response: 7E8056212473CFA
+- expected_values:
+    GRANDCHEROKEE_THROTTLE_INLET_P: 97.6
+  response: 7E8056212473D00
+- expected_values:
+    GRANDCHEROKEE_THROTTLE_INLET_P: 99.3125
+  response: 7E8056212473E12
