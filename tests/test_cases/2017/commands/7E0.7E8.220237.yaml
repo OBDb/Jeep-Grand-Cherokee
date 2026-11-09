@@ -1,0 +1,9 @@
+command_id: 7E0.7E8.220237
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_INJ_WIDTH_CYL_4: 2.472
+  response: |-
+    7E807620237000009A8
+    7E804410C0960
+    7E803410D00
+    7E803410F3E
