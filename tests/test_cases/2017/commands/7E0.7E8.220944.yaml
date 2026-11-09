@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.220944
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_BRAKE_BOOSTER_P: 75.15
+  response: |-
+    7E8056209441D5B
+    7E803410F3E
+    7E804410C0BE0
+    7E803410D08
+    7E804411F033C

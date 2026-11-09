@@ -1,0 +1,8 @@
+command_id: 740.4C0.22A0A5|fc=1
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_TP_FL_VALID: 1
+    GRANDCHEROKEE_TP_FR_VALID: 1
+    GRANDCHEROKEE_TP_RL_VALID: 1
+    GRANDCHEROKEE_TP_RR_VALID: 1
+  response: 4C00462A0A50F
