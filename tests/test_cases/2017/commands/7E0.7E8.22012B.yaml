@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_CAT_MODEL_T: 514
   response: 7E80562012B0202
+- expected_values:
+    GRANDCHEROKEE_CAT_MODEL_T: 813
+  response: |-
+    7E80562012B032D
+    7E804410C164C
+    7E803410D57

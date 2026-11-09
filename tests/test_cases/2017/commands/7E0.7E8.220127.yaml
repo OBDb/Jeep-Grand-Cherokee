@@ -14,3 +14,9 @@ test_cases:
     7E804410C0F74
     7E803410D0A
     7E803412F82
+- expected_values:
+    GRANDCHEROKEE_AAT: 77.2
+  response: |-
+    7E80462012759
+    7E803410D54
+    7E803410B36

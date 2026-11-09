@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.220109
 test_cases:
 - expected_values:
+    GRANDCHEROKEE_BAROMETRIC_P: 100.4
+  response: |-
+    7E80562010901F6
+    7E804410C1AA8
+    7E803410D54
+- expected_values:
     GRANDCHEROKEE_BAROMETRIC_P: 100.6
   response: |-
     7E80562010901F7

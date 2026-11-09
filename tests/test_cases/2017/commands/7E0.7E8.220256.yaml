@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220256
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_FUEL_MASS_CYL_2: 13.65625
+  response: |-
+    7E805620256036A
+    7E803410D59
+    7E803410582
