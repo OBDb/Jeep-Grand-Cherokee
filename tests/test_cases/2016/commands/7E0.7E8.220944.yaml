@@ -25,5 +25,8 @@ test_cases:
     GRANDCHEROKEE_BRAKE_BOOSTER_P: 80.65
   response: 7E8056209441F81
 - expected_values:
+    GRANDCHEROKEE_BRAKE_BOOSTER_P: 81.2
+  response: 7E8056209441FB8
+- expected_values:
     GRANDCHEROKEE_BRAKE_BOOSTER_P: 82.85
   response: 7E805620944205D
