@@ -1,0 +1,9 @@
+command_id: 7E0.7E8.2201AA
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_KNOCK_SENS_2: 0.86427
+  response: |-
+    7E8056201AA2C40
+    7E804410C1558
+    7E803410D55
+    7E803412F66

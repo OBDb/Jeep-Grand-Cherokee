@@ -16,3 +16,8 @@ test_cases:
     7E803412F82
     7E804410C0D44
     7E803410D08
+- expected_values:
+    GRANDCHEROKEE_AC_HIGH_SIDE_P: 966
+  response: |-
+    7E80462032945
+    7E804411F0BB2

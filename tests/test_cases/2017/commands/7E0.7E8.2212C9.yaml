@@ -15,3 +15,9 @@ test_cases:
     7E803412F7A
     7E804410C02CC
     7E803410D00
+- expected_values:
+    GRANDCHEROKEE_LOW_SIDE_ECT: null
+  response: |-
+    7E8046212C900
+    7E804410C1680
+    7E803410D58

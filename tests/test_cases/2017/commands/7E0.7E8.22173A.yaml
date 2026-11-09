@@ -14,3 +14,6 @@ test_cases:
     7E804410C19F0
     7E803410D0F
     7E803412F82
+- expected_values:
+    GRANDCHEROKEE_RR_WHL_SPD: 87.39062
+  response: 7E80562173A15D9

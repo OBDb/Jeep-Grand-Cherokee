@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.225504|fc=1
+test_cases:
+- expected_values:
+    GRANDCHEROKEE_GEAR_TARGET: '8'
+  response: |-
+    7E90462550408
+    7E904410C16B0
+    7E903410D59
+    7E90341057F
+    7E904410C16E0
+    7E903410D59
