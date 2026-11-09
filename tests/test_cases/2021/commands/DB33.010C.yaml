@@ -37,10 +37,10 @@ test_cases:
     18DAF11004410C31B0
     18DAF11804410C31C4
 - expected_values:
-    RPM: 3308
+    RPM: 3733
   response: |-
-    18DAF11004410C339C
-    18DAF11804410C33B0
+    18DAF11004410C3A58
+    18DAF11804410C3A54
 - expected_values:
     RPM: 674
   response: |-
