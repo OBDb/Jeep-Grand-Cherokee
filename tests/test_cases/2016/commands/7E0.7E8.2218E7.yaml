@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_DPF_REGENS_18E7: 2152
   response: 7E8056218E70868
+- expected_values:
+    GRANDCHEROKEE_DPF_REGENS_18E7: 2337
+  response: 7E8056218E70921
