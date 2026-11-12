@@ -10,6 +10,15 @@ test_cases:
     GRANDCHEROKEE_AAT: 55.6
   response: 7E8046201274D
 - expected_values:
+    GRANDCHEROKEE_AAT: 57.4
+  response: 7E8046201274E
+- expected_values:
+    GRANDCHEROKEE_AAT: 59.2
+  response: 7E8046201274F
+- expected_values:
+    GRANDCHEROKEE_AAT: 61
+  response: '7E80462012750'
+- expected_values:
     GRANDCHEROKEE_AAT: 77.2
   response: '7E80462012759'
 - expected_values:
