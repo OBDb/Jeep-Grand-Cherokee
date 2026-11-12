@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220174
 test_cases:
 - expected_values:
-    GRANDCHEROKEE_MAP: 18.6
-  response: 7E805620174005D
+    GRANDCHEROKEE_MAP: 18.4
+  response: 7E805620174005C
 - expected_values:
     GRANDCHEROKEE_MAP: 50.8
   response: 7E80562017400FE
