@@ -13,6 +13,15 @@ test_cases:
     GRANDCHEROKEE_FLI_INPUT: 60.78431
   response: 7E8046202279B
 - expected_values:
+    GRANDCHEROKEE_FLI_INPUT: 74.11765
+  response: 7E804620227BD
+- expected_values:
+    GRANDCHEROKEE_FLI_INPUT: 74.90196
+  response: 7E804620227BF
+- expected_values:
+    GRANDCHEROKEE_FLI_INPUT: 75.68627
+  response: 7E804620227C1
+- expected_values:
     GRANDCHEROKEE_FLI_INPUT: 78.03922
   response: 7E804620227C7
 - expected_values:
