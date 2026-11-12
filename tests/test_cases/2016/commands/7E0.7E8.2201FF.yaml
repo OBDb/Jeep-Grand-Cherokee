@@ -4,5 +4,5 @@ test_cases:
     GRANDCHEROKEE_IAT_01FF: 21
   response: 7E8056201FF0055
 - expected_values:
-    GRANDCHEROKEE_IAT_01FF: 52
-  response: 7E8056201FF0074
+    GRANDCHEROKEE_IAT_01FF: 56
+  response: 7E8056201FF0078
