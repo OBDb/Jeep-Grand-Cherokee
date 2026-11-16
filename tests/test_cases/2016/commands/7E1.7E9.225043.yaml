@@ -4,5 +4,5 @@ test_cases:
     GRANDCHEROKEE_ATF_T_7E1: 22
   response: 7E9046250433E
 - expected_values:
-    GRANDCHEROKEE_ATF_T_7E1: 100
-  response: 7E9046250438C
+    GRANDCHEROKEE_ATF_T_7E1: 102
+  response: 7E9046250438E
