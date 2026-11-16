@@ -162,7 +162,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0109"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2019], "from": 2022 },
   "signals": [
-    {"id": "GRANDCHEROKEE_BAROMETRIC_P", "path": "Engine", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "kilopascal" }, "name": "Barometric pressure"}
+    {"id": "GRANDCHEROKEE_BAROMETRIC_P", "path": "Engine", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "kilopascal" }, "name": "Barometric pressure", "suggestedMetric": "barometricPressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0127"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2019], "from": 2022 },
   "signals": [
@@ -220,7 +220,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "01FF"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2019], "from": 2022 },
   "signals": [
-    {"id": "GRANDCHEROKEE_IAT_01FF", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 191, "min": -64, "add": -64, "unit": "celsius" }, "name": "Intake manifold air temperature"}
+    {"id": "GRANDCHEROKEE_IAT_01FF", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 191, "min": -64, "add": -64, "unit": "celsius" }, "name": "Intake manifold air temperature", "suggestedMetric": "intakeAirTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0227"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2019], "from": 2022 },
   "signals": [
@@ -685,10 +685,10 @@
   "signals": [
     {"id": "GRANDCHEROKEE_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 720, "min": -720, "div": 10, "add": -720, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "DA30", "rax": "30", "cmd": {"22": "2962"}, "freq": 0.1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "from": 2026 },
+{ "hdr": "DA30", "rax": "30", "cmd": {"22": "2962"}, "freq": 0.25, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
-    {"id": "GRANDCHEROKEE_LAT_G",  "path": "Orientation", "fmt": {"bix": 4,   "len": 12, "max": 40.94, "min": -40.94, "div": 50, "add": -40.96, "nullmax": 40, "unit": "metersPerSecondSquared" }, "name": "Lateral acceleration"},
-    {"id": "GRANDCHEROKEE_LNG_G",  "path": "Orientation", "fmt": {"bix": 20,  "len": 12, "max": 40.94, "min": -40.94, "div": 50, "add": -40.96, "nullmax": 40, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration"},
+    {"id": "GRANDCHEROKEE_LAT_G",  "path": "Orientation", "fmt": {"bix": 4,   "len": 12, "max": 40.94, "min": -40.94, "div": 50, "add": -40.96, "nullmax": 40, "unit": "metersPerSecondSquared" }, "name": "Lateral acceleration",      "suggestedMetric": "lateralAcceleration"},
+    {"id": "GRANDCHEROKEE_LNG_G",  "path": "Orientation", "fmt": {"bix": 20,  "len": 12, "max": 40.94, "min": -40.94, "div": 50, "add": -40.96, "nullmax": 40, "unit": "metersPerSecondSquared" }, "name": "Longitudinal acceleration", "suggestedMetric": "longitudinalAcceleration"},
     {"id": "GRANDCHEROKEE_FL_VSS", "path": "Movement",    "fmt": {"bix": 112, "len": 16, "max": 4095,                 "div": 16,                               "unit": "kilometersPerHour"      }, "name": "Front left wheel speed"},
     {"id": "GRANDCHEROKEE_RL_VSS", "path": "Movement",    "fmt": {"bix": 144, "len": 16, "max": 4095,                 "div": 16,                               "unit": "kilometersPerHour"      }, "name": "Rear left wheel speed"},
     {"id": "GRANDCHEROKEE_FR_VSS", "path": "Movement",    "fmt": {"bix": 176, "len": 16, "max": 4095,                 "div": 16,                               "unit": "kilometersPerHour"      }, "name": "Front right wheel speed"},
