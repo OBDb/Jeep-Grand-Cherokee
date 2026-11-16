@@ -372,7 +372,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1935"}, "freq": 5,
   "signals": [
-    {"id": "GRANDCHEROKEE_IAT_1935", "path": "Engine", "fmt": { "len": 16, "max": 65495, "min": -40, "add": -40, "unit": "fahrenheit" }, "name": "Intake manifold air temperature", "suggestedMetric": "intakeAirTemperature"}
+    {"id": "GRANDCHEROKEE_IAT_1935", "path": "Engine", "fmt": { "len": 16, "max": 65495, "min": -40, "add": -40, "unit": "fahrenheit" }, "name": "Intake manifold air temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1D89"}, "freq": 1,
   "signals": [
@@ -428,7 +428,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "70B8"}, "freq": 5,
   "signals": [
-    {"id": "GRANDCHEROKEE_IAT_70B8", "path": "Engine", "fmt": { "len": 16, "max": 1260.2976, "min": -40, "mul": 0.0198412698, "add": -40, "unit": "celsius" }, "name": "Intake manifold air temperature", "suggestedMetric": "intakeAirTemperature"}
+    {"id": "GRANDCHEROKEE_IAT_70B8", "path": "Engine", "fmt": { "len": 16, "max": 1260.2976, "min": -40, "mul": 0.0198412698, "add": -40, "unit": "celsius" }, "name": "Intake manifold air temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "A001"}, "freq": 0.25,
   "signals": [
