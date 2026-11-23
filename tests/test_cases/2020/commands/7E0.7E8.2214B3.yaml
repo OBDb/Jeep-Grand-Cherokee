@@ -3,3 +3,8 @@ test_cases:
 - expected_values:
     GRANDCHEROKEE_THROTTLE_INLET_AIR_T_RAW: null
   response: 7E8056214B30000
+- expected_values:
+    GRANDCHEROKEE_THROTTLE_INLET_AIR_T_RAW: null
+  response: |-
+    7E824091740233FD540
+    7E8056214B30000
