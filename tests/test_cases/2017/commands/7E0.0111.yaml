@@ -1490,6 +1490,18 @@ test_cases:
     TP: 12.15686
   response: |-
     7E80341111F
+    7E803410B22
+    7E803410F45
+    7E804410C0964
+    7E803410D00
+    7E804411F049B
+    7E803412F5B
+    7E804410C0978
+    7E803410D00
+- expected_values:
+    TP: 12.15686
+  response: |-
+    7E80341111F
     7E803410D00
     7E803410F55
     7E803412FAA
@@ -3581,18 +3593,6 @@ test_cases:
     7E803414A1F
     7E8046202278D
 - expected_values:
-    TP: 18.03922
-  response: |-
-    7E80341112E
-    7E80341067B
-    7E803410B56
-    7E803410D22
-    7E803410F5F
-    7E80441310749
-    7E8044142379D
-    7E803414937
-    7E80462022781
-- expected_values:
     TP: 21.56863
   response: |-
     7E80341112F
@@ -4643,18 +4643,6 @@ test_cases:
     7E804414238C2
     7E803414A32
     7E80462022787
-- expected_values:
-    TP: 30.19608
-  response: |-
-    7E80341114D
-    7E80341067C
-    7E803410B58
-    7E803410D8A
-    7E803410F4D
-    7E804414238A3
-    7E803414A2B
-    7E80441310505
-    7E804620227BA
 - expected_values:
     TP: 30.19608
   response: |-

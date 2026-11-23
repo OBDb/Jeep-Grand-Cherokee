@@ -706,6 +706,18 @@ test_cases:
     7E8024300
     7E804620227B9
 - expected_values:
+    CLR_DIST: 785
+  response: |-
+    7E80441310311
+    7E803410F45
+    7E804410C0940
+    7E803410D00
+    7E80341057D
+    7E804411F04AD
+    7E804410C0960
+    7E803410D00
+    7E803412F5B
+- expected_values:
     CLR_DIST: 790
   response: |-
     7E80441310316
@@ -896,18 +908,6 @@ test_cases:
     7E8044142393E
     7E803414A0A
     7E80462022781
-- expected_values:
-    CLR_DIST: 813
-  response: |-
-    7E8044131032D
-    7E803410680
-    7E803410D00
-    7E803410F41
-    7E803412F47
-    7E8044131032D
-    7E80441422D99
-    7E803414A00
-    7E80462022780
 - expected_values:
     CLR_DIST: 815
   response: |-
@@ -1302,18 +1302,6 @@ test_cases:
     7E80641010007E500
     7E803410D71
     7E804620227A9
-- expected_values:
-    CLR_DIST: 924
-  response: |-
-    7E8044131039C
-    7E80341067B
-    7E803410D0D
-    7E803410F4C
-    7E803412F1C
-    7E8044131039C
-    7E804414238C2
-    7E803414A28
-    7E8046202276F
 - expected_values:
     CLR_DIST: 925
   response: |-
