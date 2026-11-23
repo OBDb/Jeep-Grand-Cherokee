@@ -17,6 +17,7 @@ supported_commands_by_ecu:
   - 7DF.0111
   - 7DF.012F
   - 7DF.0131
+  - 7DF.0142
   - 7DF.0143
   - 7DF.0144
   "7E0":
@@ -173,8 +174,6 @@ supported_commands_by_ecu:
   - 7E1.7E9.225503|fc=1:GRANDCHEROKEE_GEAR
   - 7E1.7E9.225504|fc=1:GRANDCHEROKEE_GEAR_TARGET
 unsupported_commands_by_ecu:
-  "7DF":
-  - 7DF.0142
   "7E0":
   - 7E0.7E8.2117:GRANDCHEROKEE_LINE_P,GRANDCHEROKEE_LINE_P_DUTY
   - 7E0.7E8.2118:GRANDCHEROKEE_ATF_T_V_2
