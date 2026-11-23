@@ -85,7 +85,7 @@
     {"id": "GRANDCHEROKEE_EXH_GAS_T_2_7E0", "path": "Engine", "fmt": {"bix": 288, "len": 16, "max": 32767, "div": 2, "unit": "fahrenheit" }, "name": "Exhaust gas temperature 2"},
     {"id": "GRANDCHEROKEE_DPF_REGEN",       "path": "Engine", "fmt": {"bix": 383, "len": 1,  "max": 1,               "unit": "offon"      }, "name": "Diesel particulate filter regeneration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "4D"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2017, 2019], "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "4D"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2019], "from": 2022 },
   "signals": [
     {"id": "GRANDCHEROKEE_SOOT_LOAD", "path": "Engine", "fmt": {"bix": 8, "len": 16, "max": 511, "div": 128, "unit": "gravity" }, "name": "Soot load"}
   ]},
