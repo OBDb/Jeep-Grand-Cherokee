@@ -7,5 +7,5 @@ test_cases:
     GRANDCHEROKEE_MAP: 51
   response: 7E80562017400FF
 - expected_values:
-    GRANDCHEROKEE_MAP: 51.4
-  response: '7E8056201740101'
+    GRANDCHEROKEE_MAP: 102.4
+  response: '7E8056201740200'
